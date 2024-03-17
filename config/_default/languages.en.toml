@@ -1,0 +1,21 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Joel Marks"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "logo-white.png"
+secondaryLogo = "logo-black.png"
+description = "A personal homepage"
+copyright = "Copy, _right?_ :thinking_face:"
+
+[author]
+name = "Name here"
+image = "avatar_square.jpg"
+headline = "Solution Focused Practitioner"
+bio = "Solution focused practitioner, trained with BRIEF"
+links = [ { email = "mailto:hello@your_domain.com" }, { link = "https://link-to-some-website.com/" }, { gitlab = "https://gitlab.com/username" } ]
