@@ -18,4 +18,4 @@ name = "Name here"
 image = "avatar_square.jpg"
 headline = "Solution Focused Practitioner"
 bio = "Solution focused practitioner, trained with BRIEF"
-links = [ { email = "mailto:hello@your_domain.com" }, { link = "https://link-to-some-website.com/" }, { gitlab = "https://gitlab.com/username" } ]
+links = [ { link = "https://joelmarks.online/" }, { github = "https://github.com/joel-marks/jm" }, { linkedin = "https://linkedin.com/in/joel-marks"} ]
