@@ -9,9 +9,7 @@ Solution Focused Brief coaching can work for you, and quickly. Most clients can 
 
 I only work with methods that have a good evidence base. If you are looking to move forward with something in your life, book a quick call to find out more.
 
-<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-  Book a call
-</button>
+{{< button href="blog" target="_self" >}} Book a call {{< /button >}}
 
 Qualified with the UK's leading provider of SFBT (Solution Focused Brief Therapy) training. I previously studied with The Open University BSc in Business Collaboration, Social Marketing, Business Management and International Development.
 
