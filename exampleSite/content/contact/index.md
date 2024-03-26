@@ -40,10 +40,13 @@ draft: false
   </div>
   <div class="form-group row">
     <div class="offset-4 col-8">
-      <p>{{<button name="submit" type="submit" class="btn btn-primary">}} Send {{< /button >}}
+      <p><button name="submit" type="submit" class="btn btn-primary"> Send </button>
     </div>
   </div>
   <div class="text-center">
-    <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
+    <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Formsssss</a>)</small></p>
   </div>
 </form>
+
+
+{{< button name="submit" type="submit" class="btn btn-primary" >}} Send {{< /button >}}

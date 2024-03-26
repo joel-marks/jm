@@ -22,10 +22,9 @@ date: 2023-01-01
 draft: false
 ---
 
-
 <div class="w-full max-w-xs pt-8">
-  <form method="post" action="https://forms.un-static.com/forms/7cdf474431345d93b3e0cb86cf4a656764fdd5af" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-    <div class="flex flex-wrap mx-3 mb-6">
+  <form action="https://forms.un-static.com/forms/7cdf474431345d93b3e0cb86cf4a656764fdd5af" method="post" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div class="flex flex-wrap -mx-3 mb-6">
       <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
           Name
@@ -50,11 +49,13 @@ draft: false
     </div>
     <div class="flex flex-wrap -mx-3 mb-6">
       <div class="w-full px-3">
-        {{<button name="submit" type="submit" class="btn btn-primary">}} Send {{< /button >}}
+       <button name="submit" type="submit" class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"> Send </button>
       </div>
     </div>
   </form>
   <div class="text-center">
-    <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
+    <p><small>(Powered by <a rel="nofollow" href="https://un-static.com/">Un-static Formsssss</a>)</small></p>
   </div>
 </div>
+
+
