@@ -33,11 +33,11 @@ cardViewScreenWidth = false
 
 [article]
 showDate = true
-showViews = false
-showLikes = false
+showViews = true
+showLikes = true
 showDateOnlyInArticle = false
 showDateUpdated = false
-showAuthor = false
+showAuthor = true
 showHero = true
 heroStyle = "background"
 layoutBackgroundBlur = true
