@@ -1,0 +1,10 @@
+{
+    "name": "Joel Marks",
+    "image" : "img/nuno_avatar.jpg",
+    "bio": "Solution Focused Practitioner",
+    "social": [
+        { "linkedin": "https://linkedin.com/in/joel-marks" },
+        { "github": "https://github.com/joel-marks" },
+        { "goodreads": "https://www.goodreads.com/joelmarks" }
+    ]
+}

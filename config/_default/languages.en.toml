@@ -14,8 +14,8 @@ description = "A personal homepage"
 copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-name = "Name here"
+name = "Joel Marks"
 image = "avatar_square.jpg"
 headline = "Solution Focused Practitioner"
 bio = "Solution focused practitioner, trained with BRIEF"
-links = [ { link = "https://joelmarks.online/" }, { github = "https://github.com/joel-marks/jm" }, { linkedin = "https://linkedin.com/in/joel-marks"} ]
+links = [ { link = "https://joelmarks.online/" }, { linkedin = "https://linkedin.com/in/joel-marks"} ]

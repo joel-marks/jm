@@ -11,30 +11,43 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Articles"
+  name = "Posts"
   pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "Contact"
-  pageRef = "contact"
+  name = "About"
+  pageRef = "authors/joelmarks"
   weight = 20
 
 [[main]]
-  name = "Parent"
+  name = "Contact"
+  pageRef = "contact"
   weight = 30
 
 [[main]]
-  name = "example sub-menu 1"
-  parent = "Parent"
-  pageRef = "posts"
-  weight = 30
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/joel-marks/jm"
+  weight = 400
 
-[[main]]
-  name = "example sub-menu 2"
-  parent = "Parent"
-  pageRef = "posts"
-  weight = 30
+
+
+#[[main]]
+#  name = "Parent"
+#  weight = 30
+
+#[[main]]
+#  name = "example sub-menu 1"
+#  parent = "Parent"
+#  pageRef = "posts"
+#  weight = 30
+
+#[[main]]
+#  name = "example sub-menu 2"
+#  parent = "Parent"
+#  pageRef = "posts"
+#  weight = 30
 
 #[[subnavigation]]
 #  name = "An interesting topic"
