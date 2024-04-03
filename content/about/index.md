@@ -3,10 +3,7 @@ title: "About"
 summary: "About Joel Marks"
 slug: "about"
 categories: ["Post","Blog",]
-tags: ["post","lorem","ipsum"]
-#externalUrl: ""
-#showSummary: true
-date: 2022-09-04
+date: 2024-04-01
 draft: false
 ---
 

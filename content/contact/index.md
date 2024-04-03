@@ -6,7 +6,6 @@ description: ""
 showDate: false
 showWordCount: false
 showReadingTime: false
-externalURL: ""
 sharingLinks: false
 showAuthor: false
 showAuthorsBadges: false
@@ -18,9 +17,12 @@ showSummary: false
 showViews: false
 showLikes: false
 showZenMode: false
-date: 2023-01-01
+date: 2024-04-01
 draft: false
+robots: none
 ---
+
+This page will send an email to my inbox via the un-static mail form service. Please feel free to drop me a line and we can arrange a quick, free call to see if coaching is the right fit for you.
 
 <div class="w-full max-w-xs pt-8">
   <form action="https://forms.un-static.com/forms/7cdf474431345d93b3e0cb86cf4a656764fdd5af" method="post" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -54,7 +56,7 @@ draft: false
     </div>
   </form>
   <div class="text-center">
-    <p><small>(Powered by <a rel="nofollow" href="https://un-static.com/">Un-static Formsssss</a>)</small></p>
+    <p><small>(Powered by <a rel="nofollow" href="https://un-static.com/">Un-static Forms</a>)</small></p>
   </div>
 </div>
 
