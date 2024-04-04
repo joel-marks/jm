@@ -7,6 +7,11 @@ showPagination: false
 showTaxonomies: false
 showTableOfContents: false
 
+showAuthor: false
+showAuthorsBadges : false
+authors:
+  - "joelmarks"
+
 categories: ["Post","Blog",]
 date: 2024-04-01
 draft: false
@@ -16,7 +21,7 @@ draft: false
 
 Qualified with BRIEF, the UK’s leading provider of SFBT (Solution Focused Brief Therapy) training.
 
-I am a GHR registered clinical hypnotherapist attaining PDHyp with ICCH, one of the UK's most respected Hypnotherapy schools. I have reached more than 20k on YouTube with positive interventions for confidence, sleep, pain management and more.
+I am a GHR registered clinical hypnotherapist attaining PDHyp with ICCHP, one of the UK's most respected Hypnotherapy schools. I have reached more than 20k on YouTube with positive interventions for confidence, sleep, pain management and more.
 
 Since 20217 I have developed in depth knowledge of the therapeutic use of psychedelics in modern, neo-shamanic, healing contexts and am creating educational resources for coaches wishing to engage with the subject matter.
 
@@ -26,6 +31,4 @@ My degree is with The Open University, BSc Hons (Open) and with Liverpool Univer
 
 ## Specialist background
 
-For the last few years I have been working in London as an audio visual technician. This has included A/V engineering at a large multi-room venue in central London as well as freelance work.
-
-I have taught theory and practice of music synthesis and have an ongoing interest Ambisonics.
+For the last few years I have been working in London as an audio visual technician. This has included A/V engineering at a large multi-room venue in central London as well as freelance work. I have taught theory and practice of music synthesis and have an ongoing interest music technology.

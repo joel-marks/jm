@@ -5,6 +5,12 @@ categories: ["Post","Blog",]
 tags: ["post","lorem","ipsum"]
 #externalUrl: ""
 #showSummary: true
+
+showAuthor: false
+showAuthorsBadges: true
+authors:
+  - "joelmarks"
+
 date: 2024-04-04
 draft: false
 ---

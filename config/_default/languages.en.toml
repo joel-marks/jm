@@ -15,7 +15,7 @@ copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
 name = "Joel Marks"
-image = "avatar_square.jpg"
+image = "img/joelmarks_avatar.jpg"
 headline = "Solution Focused Practitioner"
 bio = "Solution focused practitioner, trained with BRIEF"
-links = [ { link = "https://joelmarks.online/" }, { linkedin = "https://linkedin.com/in/joel-marks"} ]
+links = [ { link = "https://joelmarks.online/" }, { linkedin = "https://linkedin.com/in/joel-marks"}, { goodreads = "https://www.goodreads.com/joelmarks" } ]
