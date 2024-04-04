@@ -2,6 +2,11 @@
 title: "About"
 summary: "About Joel Marks"
 slug: "about"
+
+showPagination: false
+showTaxonomies: false
+showTableOfContents: false
+
 categories: ["Post","Blog",]
 date: 2024-04-01
 draft: false

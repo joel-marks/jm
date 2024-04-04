@@ -1,11 +1,11 @@
 ---
-title: "Super cool article that I wrote"
+title: "Blog entry 1"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna."
 categories: ["Post","Blog",]
 tags: ["post","lorem","ipsum"]
 #externalUrl: ""
 #showSummary: true
-date: 2021-09-04
+date: 2024-04-04
 draft: false
 ---
 
