@@ -18,4 +18,4 @@ name = "Joel Marks"
 image = "img/joelmarks_avatar.jpg"
 headline = "Solution Focused Practitioner"
 bio = "Solution focused practitioner, trained with BRIEF"
-links = [ { link = "https://joelmarks.online/" }, { linkedin = "https://linkedin.com/in/joel-marks"}, { goodreads = "https://www.goodreads.com/joelmarks" } ]
+links = [ { linkedin = "https://linkedin.com/in/joel-marks"}, { goodreads = "https://www.goodreads.com/joelmarks" } ]
