@@ -2,7 +2,7 @@
 title: "What is Solution Focused coaching"
 summary: "What is Solution Focused and why is it different from other coaching methods."
 categories: ["Post","Blog",]
-tags: ["post","coaching","solutionfocused"]
+tags: ["post","coaching","solutionfocused","UKASFP"]
 #externalUrl: ""
 #showSummary: true
 
@@ -15,17 +15,53 @@ date: 2024-04-04
 draft: false
 ---
 
-## Lorem ipsum dolor sit amet
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna. Nulla venenatis volutpat libero, in laoreet leo fringilla eget. Etiam consequat sed nisi sit amet interdum. Pellentesque ullamcorper at turpis in ultrices. Pellentesque et elit mauris. Aenean eu augue sit amet nunc interdum ultricies. Aenean eleifend consectetur sapien vitae consectetur. Donec risus mauris, finibus at condimentum at, lacinia sit amet neque. Nulla facilisi. Suspendisse sollicitudin dolor quis eros tempor, a tempus ex varius.
+## Origins of solutions focused
 
-## Nunc non leo non magna
-Nunc non leo non magna ornare condimentum. Phasellus consequat nunc ut tellus porttitor bibendum. In pharetra ullamcorper metus quis mollis. Mauris bibendum, est in commodo hendrerit, dolor purus hendrerit dolor, at pharetra sapien erat sit amet ante. Etiam aliquet euismod libero, vel tincidunt felis mollis at. Sed scelerisque, tortor in convallis auctor, elit quam consectetur lacus, quis posuere risus libero non sem. Mauris sagittis nisi id aliquam lacinia. Vivamus finibus velit sed condimentum aliquet. Nullam in ante a erat lacinia semper. Curabitur pretium justo at leo maximus, quis dignissim nulla posuere. Donec eget consectetur neque, et mattis dui. Vivamus at mi enim. Nullam et nisi est. Nullam eget eros blandit, convallis odio eget, ornare enim.
+Solutions focused approaches have their roots in family therapy models developed the 1960's. A key step towards what is recognisable as SFBT (Solution Focused Brief Therapy) is the paper by Steve de Shazer, Change and Focused Problem Resolution in 1974. Developments in the model and papers on SFBT continue to this day, while the approach itself has yet to become mainstream.
 
-## Quisque ultricies
-Quisque ultricies tincidunt sem nec tincidunt. Aenean nibh diam, dapibus varius ornare nec, suscipit ut arcu. Integer ut elit sollicitudin, fermentum ipsum nec, tempus eros. Donec hendrerit facilisis maximus. Pellentesque eu mi ipsum. Vivamus diam tellus, varius sed dolor at, finibus tempus lorem. Morbi sed mauris quis enim vehicula hendrerit. Sed et sollicitudin est. Maecenas scelerisque ligula ac purus gravida, et feugiat nibh blandit. Integer id quam ac arcu convallis interdum eget sed libero. Aliquam varius est quis efficitur efficitur. Cras id turpis magna. Aenean cursus, libero auctor ullamcorper vestibulum, nisl risus consectetur nisi, ut molestie enim libero sed ipsum.
+## Counselling vs. coaching
 
-## Etiam sollicitudin
-Etiam sollicitudin, ante ac fermentum varius, lorem ante congue mi, auctor dictum magna sem sed nibh. In et est id neque gravida aliquet quis a felis. Mauris tempor lectus ut gravida ornare. Curabitur at elementum tortor, in feugiat elit. Aenean auctor diam ut egestas rhoncus. Quisque tristique venenatis risus vitae suscipit. Nunc feugiat purus sed dolor gravida, non ullamcorper metus suscipit. Sed et tortor odio. Pellentesque at scelerisque nulla. In ut aliquam metus. Vivamus congue augue at pellentesque rhoncus. Donec a lectus tincidunt, aliquet libero sit amet, commodo arcu. Vivamus hendrerit quis augue eu lacinia. Sed sodales velit condimentum eros varius vulputate.
+There are many schools of counselling therapy, however most of them have a degree of focus on diagnosing or observing pathology, with the goal of addressing a range of pre-supposed underlying causes such as trauma or dysfunctional behavioural patterns (e.g. such as in family systems). Rogerian schools may focus on listening as a route to healing, whereas CBT encourages a more pro-active approach.
 
-## Proin tempor lorem
-Proin tempor lorem quam, ac maximus lectus sodales et. Sed laoreet orci vel metus luctus lobortis. Nam ex velit, vehicula id tristique sed, blandit eu nisi. Quisque semper libero nec massa malesuada congue. In faucibus lorem at diam fringilla, vel viverra magna lobortis. Ut commodo est urna, ut aliquet enim sagittis ut. Nulla posuere arcu sed lobortis accumsan. Phasellus fringilla dolor id est lobortis feugiat. Quisque enim elit, faucibus a mauris non, mattis aliquet orci. Nunc sagittis viverra erat, id condimentum lacus suscipit quis.
+Coaching can be defined as a useful conversation between two people, where the client is experiencing a level of wellness, or remission of symptoms, which allows pro-active behaviour towards a preferred change. Most coaching clients self-refer, which is a further indication of having sufficient mental health to engage with the coaching process.
+
+Coaching is often used in work environments to increase or optimise employee performance, or in sports or creative professions. It is a growing industry with many diverse approaches and client groups. There is a degree of professional self-regulation in particular areas of business coaching.
+
+SFBT has an evidence base for being effective in therapy contexts for troubled clients, however, as a coach, I am particularly interested in the use of solution focused approaches in coaching contexts.
+
+## Problems vs. solutions
+
+Solution focused approaches, especially in therapy, attract the criticism that they ignore the problem and do not allow the client to disclose their problem in a safe and understanding environment. Solution Focused Brief Therapy, however, understands the importance of listening to a client's problem as a means to build rapport and trust.
+
+Solution focused approaches, however, question the underlying assumption behind other therapeutic approaches: that a careful analysis of the problem by a professional with expert knowledge is the key to developing a care plan that will solve the problem.
+
+While a solution focused practitioner will listen to the client's problems, they are working with a different assumption: that the solution to a client's problem cannot be found in an analysis of the problem itself, but in a focus on those aspects of a client's life in which are working now and have worked previously.
+
+## Where solutions are found
+
+In the book Brief coaching, (Iverson, George, Ratner) 2012, the essence of solution focused coaching is described as
+
+- to look for resources (not deficits)
+- to explore possible and preferred futures
+- to explore what is already contributing to those futures
+
+Mark McKergow has put forward the idea of a Solution Focused Art Gallery, as a metaphor to work through a solution focused conversation.
+
+The gallery has four rooms. These rooms contain functional 'chunks' of the conversation. Most solution focused conversations now contain these functional elements:
+
+1. Ticket office
+    - What are the client's best hopes for the future (developing a common project which acts as a contract between the client and coach for the duration of the conversation)
+1. Future gallery
+    - What does the ideal future look like (this new version of a preferred future is developed using the "miracle question")
+1. Instances gallery
+    - Descriptions from past or present that align with client's best hopes and preferred future
+1. Gift shop
+    - Appreciative summaries
+   
+(from Next Generation of Solution Focused Practice, McKergow, 2001).
+
+## Professional development and membership
+
+Coaching is generally an unregulated profession. Solution Focused coaching has a number of organisations that have developed and championed standards.
+
+In the UK, the [UKASFP](https://ukasfp.org.uk) (United Kingdom Association of Solution Focused Practitioners) is a membership organisation that also has a professional standards arm which assesses coaches and therapists against strict criteria for solution focused work. It also hosts an annual conference to exchange best practice and remain up-to-date on developments in the field.

@@ -11,21 +11,44 @@ showAuthorsBadges: true
 authors:
   - "joelmarks"
 
-date: 2024-04-04
+date: 2024-04-08
 draft: false
 ---
 
-## People seeking change
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna. Nulla venenatis volutpat libero, in laoreet leo fringilla eget. Etiam consequat sed nisi sit amet interdum. Pellentesque ullamcorper at turpis in ultrices. Pellentesque et elit mauris. Aenean eu augue sit amet nunc interdum ultricies. Aenean eleifend consectetur sapien vitae consectetur. Donec risus mauris, finibus at condimentum at, lacinia sit amet neque. Nulla facilisi. Suspendisse sollicitudin dolor quis eros tempor, a tempus ex varius.
+## As a coach, you are likely to know a psychedelic user
 
-## What psychedelics do
-Nunc non leo non magna ornare condimentum. Phasellus consequat nunc ut tellus porttitor bibendum. In pharetra ullamcorper metus quis mollis. Mauris bibendum, est in commodo hendrerit, dolor purus hendrerit dolor, at pharetra sapien erat sit amet ante. Etiam aliquet euismod libero, vel tincidunt felis mollis at. Sed scelerisque, tortor in convallis auctor, elit quam consectetur lacus, quis posuere risus libero non sem. Mauris sagittis nisi id aliquam lacinia. Vivamus finibus velit sed condimentum aliquet. Nullam in ante a erat lacinia semper. Curabitur pretium justo at leo maximus, quis dignissim nulla posuere. Donec eget consectetur neque, et mattis dui. Vivamus at mi enim. Nullam et nisi est. Nullam eget eros blandit, convallis odio eget, ornare enim.
+In the past number of years there has been a renaissance of psychedelic use in the West which is sometimes known as the "Third Wave." A large number of these users have come to psychedelics because they are seeking healing or change in their lives which they have not yet found a catalyst for.
 
-## How coaching might help
-Quisque ultricies tincidunt sem nec tincidunt. Aenean nibh diam, dapibus varius ornare nec, suscipit ut arcu. Integer ut elit sollicitudin, fermentum ipsum nec, tempus eros. Donec hendrerit facilisis maximus. Pellentesque eu mi ipsum. Vivamus diam tellus, varius sed dolor at, finibus tempus lorem. Morbi sed mauris quis enim vehicula hendrerit. Sed et sollicitudin est. Maecenas scelerisque ligula ac purus gravida, et feugiat nibh blandit. Integer id quam ac arcu convallis interdum eget sed libero. Aliquam varius est quis efficitur efficitur. Cras id turpis magna. Aenean cursus, libero auctor ullamcorper vestibulum, nisl risus consectetur nisi, ut molestie enim libero sed ipsum.
+At the same time, coaching as a profession, and in terms of the number of people asking for coaching, has experienced year on year growth. This allows us to imagine a Venn diagram, with ever increasing circles, one being psychedelic users and one being people seeking coaching.
 
-## Pyschedelic integration
-Etiam sollicitudin, ante ac fermentum varius, lorem ante congue mi, auctor dictum magna sem sed nibh. In et est id neque gravida aliquet quis a felis. Mauris tempor lectus ut gravida ornare. Curabitur at elementum tortor, in feugiat elit. Aenean auctor diam ut egestas rhoncus. Quisque tristique venenatis risus vitae suscipit. Nunc feugiat purus sed dolor gravida, non ullamcorper metus suscipit. Sed et tortor odio. Pellentesque at scelerisque nulla. In ut aliquam metus. Vivamus congue augue at pellentesque rhoncus. Donec a lectus tincidunt, aliquet libero sit amet, commodo arcu. Vivamus hendrerit quis augue eu lacinia. Sed sodales velit condimentum eros varius vulputate.
+The plot thickens though, because 'healing' psychedelic users are already in the same group of people wishing to actualise some change in their lives. They are the same group of people who are likely to seek coaching.
 
-## Further thoughts
-Proin tempor lorem quam, ac maximus lectus sodales et. Sed laoreet orci vel metus luctus lobortis. Nam ex velit, vehicula id tristique sed, blandit eu nisi. Quisque semper libero nec massa malesuada congue. In faucibus lorem at diam fringilla, vel viverra magna lobortis. Ut commodo est urna, ut aliquet enim sagittis ut. Nulla posuere arcu sed lobortis accumsan. Phasellus fringilla dolor id est lobortis feugiat. Quisque enim elit, faucibus a mauris non, mattis aliquet orci. Nunc sagittis viverra erat, id condimentum lacus suscipit quis.
+## But isn't it dangerous or illegal?
+
+Psychedelics, when used as a so-called 'plant medicine' and psychedelics used in drugs trials (for example when researching treatment resistant depression) have the same active compounds. In the latter case, psilocybin. The treatment rooms for the drugs trials took a lot of wisdom from the previous 40 years of illicit psychedelic use as well as shamanic and neo-shamanic ceremony when creating safe spaces for experiencers.
+
+The outcomes for research so far have been very positive. There are risks when taking psychedelics unsupervised or without a medical assesment, however many people in the west find legal or illicit avenues to persue healing on their own terms with shaman and ceremony leaders.
+
+## Do coaches need to know about psychedelics
+
+It seems increasingly likely that psychedelics will form part of the western mainstream model for treatment of depression and anxiety disorders in the next twenty to thirty years. There are already treatment centers available in some countries, and forming a legal treatment framework and decriminalisation are now the major hurdles before psychedelic treatment becomes normalised.
+
+In this rapidly moving context, it would seem that coaches who are educated about psychedelics will be in a better position to meet their clients with understanding and without excess cultural bias. While most coaching models already have this standpoint built into their logic, the effects of the culture war against drugs, as well as some religeous standpoints can introduce strong undercurrents of fear or dissonance between client and coach.
+
+At worst a coach might jump towards a safeguarding stance during a session where a client has disclosed psychedelic use, without knowing the dangers, or lack of, relating to use of a particular psychedelic.
+
+## Are psychedelics better than coaching
+
+In Solution Focused coaching, we work with a focus on a preferred future, and look for skills and resources that have previously been used or are currently being used. Psychedelics can take a person anywhere in their own psyche, however often the content of a psychedelic experience is self-reflective and focused on the past.
+
+It is somehow, often an automatic process by which healing of these wounds occurs, however it does not always present the experiencer with the solution to what to change in their present curcumstance.
+
+Coaching is an idea tool for creating a change in the present that will lead to a preferred future. So it might be considered an ideal scenario if a psychedelic experiencer were to seek coaching directly following the experience.
+
+Some coaches might argue that coaching is all that is necessary, however a review of the research shows that much more is going on in the brain than can be achieved through a coaching conversation. It might also be observed that no coaching methodology in the past 40 years has solved the issue of treatment resistant depression.
+
+## Psychedelic informed coaching
+
+We are entering a new era in which mainstream and illicit psychedelic use for treatment of certain mental illnesses is becoming normalised in western culutres. All coaching models will find that going through a thought process about how the model intersects the needs of psychedelic users will benefit both coach and clients.
+
+I beleive that Solution Focused approaches are idea for psychedelic experiencers, as they move the person from the past to the preferred future. Furthermore the model presumes that the client has the skills and resources necessary to make the changes they wish to see. In short Solution Focused approaches consider the client to be the expert in their own lives and able to make change.
