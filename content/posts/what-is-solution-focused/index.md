@@ -23,23 +23,23 @@ Solutions focused approaches have their roots in family therapy models developed
 
 There are many schools of counselling therapy, however most of them have a degree of focus on diagnosing or observing pathology, with the goal of addressing a range of pre-supposed underlying causes such as trauma or dysfunctional behavioural patterns (e.g. such as in family systems). Rogerian schools may focus on listening as a route to healing, whereas CBT encourages a more pro-active approach.
 
-Coaching can be defined as a useful conversation between two people, where the client is experiencing a level of wellness, or remission of symptoms, which allows pro-active behaviour towards a preferred change. Most coaching clients self-refer, which is a further indication of having sufficient mental health to engage with the coaching process.
+Coaching can be defined as a useful conversation between two people, where the client is experiencing a level of wellness, or remission of symptoms, which allows pro-active behaviour towards a preferred change. Most private coaching clients self-refer, which is a further indication of having sufficient mental health to engage with the coaching process.
 
-Coaching is often used in work environments to increase or optimise employee performance, or in sports or creative professions. It is a growing industry with many diverse approaches and client groups. There is a degree of professional self-regulation in particular areas of business coaching.
+Coaching is often used in work environments to increase or optimise employee performance, or in sports or creative professions. It is a growing industry with many diverse approaches and client groups. While coaching is a not a regulated profession, there is a degree of self-regulation and standards developmenmt in business coaching through avenues such as professional membership bodies.
 
 SFBT has an evidence base for being effective in therapy contexts for troubled clients, however, as a coach, I am particularly interested in the use of solution focused approaches in coaching contexts.
 
 ## Problems vs. solutions
 
-Solution focused approaches, especially in therapy, attract the criticism that they ignore the problem and do not allow the client to disclose their problem in a safe and understanding environment. Solution Focused Brief Therapy, however, understands the importance of listening to a client's problem as a means to build rapport and trust.
+Solution focused approaches, especially in therapy, attract the criticism that they ignore the problem and do not allow the client to disclose their troubles in a safe and understanding environment. SFBT understands the importance of listening to a client's problem as a means to build rapport and trust.
 
-Solution focused approaches, however, question the underlying assumption behind other therapeutic approaches: that a careful analysis of the problem by a professional with expert knowledge is the key to developing a care plan that will solve the problem.
+Where Solution focused approaches differ is that they question the underlying assumption behind other therapeutic approaches. The assumption is that a careful analysis of the problem by a professional with expert knowledge is the key to developing a care plan that will solve the problem.
 
-While a solution focused practitioner will listen to the client's problems, they are working with a different assumption: that the solution to a client's problem cannot be found in an analysis of the problem itself, but in a focus on those aspects of a client's life in which are working now and have worked previously.
+While a solution focused practitioner will listen to the client's problems, they are working with a different assumption: That the solution to a client's problem cannot be found in an analysis of the problem itself, but in a focus on those aspects of a client's life in which are working now and have worked previously. Therefore the practitioner will choose to guide the conversation in a way that will flow towards the client's preferred outcomes.
 
 ## Where solutions are found
 
-In the book Brief coaching, (Iverson, George, Ratner) 2012, the essence of solution focused coaching is described as
+In the book Brief Coaching, (Iverson, George, Ratner) 2012, the essence of solution focused coaching is described as
 
 - to look for resources (not deficits)
 - to explore possible and preferred futures
@@ -64,4 +64,4 @@ The gallery has four rooms. These rooms contain functional 'chunks' of the conve
 
 Coaching is generally an unregulated profession. Solution Focused coaching has a number of organisations that have developed and championed standards.
 
-In the UK, the [UKASFP](https://ukasfp.org.uk) (United Kingdom Association of Solution Focused Practitioners) is a membership organisation that also has a professional standards arm which assesses coaches and therapists against strict criteria for solution focused work. It also hosts an annual conference to exchange best practice and remain up-to-date on developments in the field.
+In the UK, the [UKASFP](https://ukasfp.org.uk) (United Kingdom Association of Solution Focused Practitioners) is a membership organisation that also has a professional standards arm which assesses coaches and therapists against strict criteria for solution focused work. It also hosts an annual conference to exchange best practice and remain up-to-date on developments in the field. As of 2023 I work as a volunteer with UKASFP to assist them in their online strategic engagement.
