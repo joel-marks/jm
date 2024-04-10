@@ -19,7 +19,7 @@ draft: false
 
 Solutions focused approaches have their roots in family therapy models developed the 1960's. A key step towards what is recognisable as SFBT (Solution Focused Brief Therapy) is the paper by Steve de Shazer, Change and Focused Problem Resolution in 1974. Developments in the model and papers on SFBT continue to this day, while the approach itself has yet to become mainstream.
 
-## Counselling vs. coaching
+## Counseling vs. coaching
 
 There are many schools of counselling therapy, however most of them have a degree of focus on diagnosing or observing pathology, with the goal of addressing a range of pre-supposed underlying causes such as trauma or dysfunctional behavioural patterns (e.g. such as in family systems). Rogerian schools may focus on listening as a route to healing, whereas CBT encourages a more pro-active approach.
 
