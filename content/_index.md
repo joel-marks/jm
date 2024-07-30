@@ -10,7 +10,7 @@ description: "Why Solution Focused approaches will work for you."
 It's just a process.
 {{< /typeit >}}
 
-**No fuss. No fancy method. No homework.**<br>
+{{< lead >}}No fuss. No fancy method. No homework.<br>{{< /lead >}}
 —<br>
 Get quick results with Solution Focused brief coaching. In a useful conversation, you will rediscover skills and strategies that that you have used to solve problems before. YOU can inspire your own growth, foster resilience and drive positive change.
 

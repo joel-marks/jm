@@ -22,7 +22,11 @@ draft: false
 robots: none
 ---
 
-This page will send an email to my inbox via the un-static mail form service. Please feel free to drop me a line and we can arrange a quick, free call to see if coaching is the right fit for you.
+{{< lead >}}
+&#106;&#111;&#101;&#108;&#046;&#109;&#097;&#114;&#107;&#115;&#064;&#110;&#120;&#116;&#119;&#101;&#108;&#108;&#046;&#099;&#111;&#109;<br>
+(+&#052;&#052;)&#032;&#048;&#055;&#056;&#049;&#055;&nbsp;&#053;&#057;&#054;&#048;&#048;&#052;
+{{< /lead >}}
+Please feel free to drop me a line and we can arrange a quick, free call to see if coaching is the right fit for you.
 
 <div class="w-full max-w-xs pt-8">
   <form action="https://forms.un-static.com/forms/7cdf474431345d93b3e0cb86cf4a656764fdd5af" method="post" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -59,5 +63,5 @@ This page will send an email to my inbox via the un-static mail form service. Pl
     <p><small>(Powered by <a rel="nofollow" href="https://un-static.com/">Un-static Forms</a>)</small></p>
   </div>
 </div>
-
+This page will send an email to my inbox via the un-static mail form service.
 

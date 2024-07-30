@@ -33,20 +33,20 @@ draft: false
 
 ## Coaching and wellness
 
-Qualified with [BRIEF](https://brief.org.uk), the UK’s leading provider of [SFBT](https://en.wikipedia.org/wiki/Solution-focused_brief_therapy) (Solution Focused Brief Therapy) training.
+Founder of Nxtwell Ltd., a leadership, team and wellbeing collaboration based in London and remotely. Providing coaching and training services to startups and new leaders looking to expand their leadership and team-working skills.
 
-I am a [GHR](https://general-hypnotherapy-register.com) registered clinical hypnotherapist attaining PDHyp with [ICCHP](https://icchp.com), one of the UK's most respected Hypnotherapy schools. I have reached more than 20k on YouTube with positive interventions for confidence, sleep, pain management and more.
+- Qualified with [BRIEF](https://brief.org.uk), the UK’s leading provider of [SFBT](https://en.wikipedia.org/wiki/Solution-focused_brief_therapy) (Solution Focused Brief Therapy) training.
 
-## Therapy and psychedelics
+- [GHR](https://general-hypnotherapy-register.com) registered clinical hypnotherapist attaining PDHyp with [ICCHP](https://icchp.com).
 
-Since 2017 I have developed in broad knowledge of the therapeutic use of psychedelics in modern, neo-shamanic, healing contexts and am creating educational resources for coaches wishing to engage with the subject matter.
+- Member of [UKASFP](https://ukasfp.org) (UK Association of Solution Focused Professionals) and volunteer consultant adviser for I.T. services.
 
-I have an ongoing interest in the discussion around so-called "bad trips," spiritual awakening and ontological shock and it's relationship to use of psychoactive substances and the healing process.
+- Member of [London Chamber of Commerce and Industry](https://www.londonchamber.co.uk) (LCCI).
+
+## Leadership
+
+Content development and delivery for blogging videos on YouTube covering leadership, personal-development, and solopreneurship.
 
 ## Qualifications
 
-My degree is with The Open University, BSc Hons (Open) and with Liverpool University. I have read courses in (most recent first) international business collaboration, social marketing, business studies for government and non-profit, international development, computer information systems and psychology.
-
-## Specialist background
-
-For the last few years I have been working in London as an audio visual technician. This has included A/V engineering at a large multi-room venue in central London as well as freelance work. I have taught theory and practice of music synthesis and have an ongoing interest music technology.
+The Open University, BSc Hons (Open) and CertHE with Liverpool University. I have read courses in (most recent first) international business collaboration, social marketing, business (government, non-profit), international development, computer information systems and psychology.
