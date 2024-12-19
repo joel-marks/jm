@@ -1,19 +1,23 @@
 ---
-title: "The most effective coaching method"
-description: "Why Solution Focused approaches will work for you."
+title: ""
+description: "Joel Marks - Solution Focused coaching."
 ---
 
 {{< typeit
   tag=h1
   lifeLike=true
 >}}
-It's just a process.
+Resolute_
 {{< /typeit >}}
 
-{{< lead >}}No fuss. No fancy method. No homework.<br>{{< /lead >}}
+{{< lead >}}That feeling you get before everything changes.<br>{{< /lead >}}
 —<br>
-Get quick results with Solution Focused brief coaching. In a useful conversation, you will rediscover skills and strategies that that you have used to solve problems before. YOU can inspire your own growth, foster resilience and drive positive change.
+You need quick results. You've solved problems before. But the change isn't happening. **Here's how to fix it:**
 
-I only work with methods that have a good evidence base. If you are looking to move forward with something in your life, get in touch to find out more.
+Forge your own path using 'Resolute,' and gain access to most powerful self-coaching method available
+
+{{< button href="https://shop.nxtwell.com/resolve" target="_self" >}} Get the course {{< /button >}}
+
+Or for a more substantial change, get in touch with me directly and we can assess together how to get the best results through personalised coaching.
 
 {{< button href="contact" target="_self" >}} Book a call {{< /button >}}

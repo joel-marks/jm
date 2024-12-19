@@ -26,10 +26,22 @@
   weight = 30
 
 [[main]]
+  identifier = "linkedin"
+  pre = "linkedin"
+  url = "https://linkedin.com/in/joel-marks"
+  weight = 400
+
+[[main]]
+  identifier = "goodreads"
+  pre = "goodreads"
+  url = "https://www.goodreads.com/joelmarks"
+  weight = 500
+
+[[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/joel-marks/jm"
-  weight = 400
+  weight = 600
 
 
 

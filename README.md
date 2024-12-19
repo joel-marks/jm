@@ -4,9 +4,9 @@
 
 Hi there 👋
 
-I am a Solution Focused Practitioner and founder of Nxtwell, an organisation that provides leaders and teams with coaching and training. I can be contacted via my website or LinkedIn. I have training as a Solution Foucsed Therapist, a Clinical Hypnotherapist and academic background in Organisational Collaboration, Social Marketing, International Development and Computer Information Systems. I have prior experience in the audio industry as a producer and a/v technician providing services to conferences in Central London.
+I am a Solution Focused Consultant Coach and founder of Nxtwell, an organisation that provides leaders, collaborations and teams with coaching and training. I can be contacted via my website or LinkedIn. I trained with BRIEF UK in Solution Focused Therapy, and with ICCHP in Clinical Hypnotherapy. I have an academic background in Organisational Collaboration, Social Marketing, International Development and Computer Information Systems. I previously worked in the audio industry as a producer and technician providing services to conferences in Central London.
 
-I'm not a coder but I am a bit techy. This site uses the excellent Blowfish template on Hugo. I dev it on a Kubuntu laptop.
+This site uses the excellent Blowfish template on Hugo. I am a supporter of free open source software.
 
 ## Built Using
 
@@ -16,10 +16,19 @@ I'm not a coder but I am a bit techy. This site uses the excellent Blowfish temp
 - Tailwind CSS
 - HTML
 - un-static forms
+- Firebase
+
+## Thanks go to developers of
+
+- Kubuntu
+- Kate
+- Zettlr
+- Zotero
+- Logseq
 
 ## Author
 
 **Joel Marks**
 
-- [Profile](https://linkedin.com/in/joel-marks "Profile")
-- [Website](https://joelmarks.online "Homepage")
+- [LinkedIn Profile](https://linkedin.com/in/joel-marks "Profile")
+- [Homepage](https://joelmarks.online "Homepage")

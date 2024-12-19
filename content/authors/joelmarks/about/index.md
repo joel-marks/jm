@@ -31,22 +31,25 @@ date: 2024-04-01
 draft: false
 ---
 
-## Coaching and wellness
 
-Founder of Nxtwell Ltd., a leadership, team and wellbeing collaboration based in London and remotely. Providing coaching and training services to startups and new leaders looking to expand their leadership and team-working skills.
+Hi, I am Joel, a Solution Focused consultant coach and a registered clinical hypnotherapist. I work with organisations and a limited number of private coaching clients.
+
+I am the founder of Nxtwell Ltd., a leadership, team and wellbeing collaboration based in London and remotely. We deliver thought-leadership and Solution Focused services for leaders, teams and collaborations. Visit [nxtwell.com](https://nxtwell.com) for information.
+
+## Qualifications
 
 - Qualified with [BRIEF](https://brief.org.uk), the UK’s leading provider of [SFBT](https://en.wikipedia.org/wiki/Solution-focused_brief_therapy) (Solution Focused Brief Therapy) training.
 
-- [GHR](https://general-hypnotherapy-register.com) registered clinical hypnotherapist attaining PDHyp with [ICCHP](https://icchp.com).
+- Clinical hypnotherpist, PDHyp with [ICCHP](https://icchp.com).
+
+## Memberships
+
+- [GHR](https://general-hypnotherapy-register.com) registered clinical hypnotherapist.
 
 - Member of [UKASFP](https://ukasfp.org) (UK Association of Solution Focused Professionals) and volunteer consultant adviser for I.T. services.
 
 - Member of [London Chamber of Commerce and Industry](https://www.londonchamber.co.uk) (LCCI).
 
-## Leadership
+## Academic
 
-Content development and delivery for blogging videos on YouTube covering leadership, personal-development, and solopreneurship.
-
-## Qualifications
-
-The Open University, BSc Hons (Open) and CertHE with Liverpool University. I have read courses in (most recent first) international business collaboration, social marketing, business (government, non-profit), international development, computer information systems and psychology.
+The Open University, BSc Hons (Open) and CertHE with Liverpool University. I have read courses in (most recent first) international business collaboration, social marketing, business management (government, non-profit), international development, computer information systems and psychology.

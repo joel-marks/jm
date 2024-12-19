@@ -36,18 +36,19 @@ smartTOCHideUnfocusedChildren = true
     showScrollToTop = true
 
 [homepage]
-    layout = "background"
+    layout = "custom" # valid options: profile, page, hero, background, card, custom -requires layouts/partials/home/custom.html
     showHero = true
     heroStyle = "background"
     layoutBackgroundBlur = true
     layoutBackgroundHeaderSpace = true
     homepageImage = "moutains_joelmarks_pexels-koustabh-biswas-3737179.jpg"
+    homepageCard = "mockup.png" # additional parameter by joel inserted in custom
     showRecent = true
     showRecentItems = 5
     showMoreLink = true
     showMoreLinkDest = "/posts"
     cardView = true
-    cardViewScreenWidth = false
+    cardViewScreenWidth = true
 
 [article]
     showDate = true
