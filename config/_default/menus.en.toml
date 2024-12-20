@@ -22,7 +22,7 @@
 
 [[main]]
   name = "Contact"
-  pageRef = "contact"
+  url = "https://shop.joelmarks.online/contact"
   weight = 30
 
 [[main]]
