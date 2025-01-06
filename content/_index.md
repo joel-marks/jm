@@ -14,7 +14,7 @@ Resolute_
 —<br>
 You need quick results. You've solved problems before. But the change isn't happening. **Here's how to fix it:**
 
-Forge your own path using 'Resolute,' and gain access to most powerful self-coaching method available
+Forge your own path using 'Resolute,' and gain access to most powerful self-coaching method available. FREE in JAN 2025.
 
 {{< button href="https://shop.joelmarks.online/resolute" target="_self" >}} Get the course {{< /button >}}
 
