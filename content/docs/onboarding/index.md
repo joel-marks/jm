@@ -1,6 +1,6 @@
 ---
 title: "Welcome"
-date: 2023-01-01
+date: 2024-12-01
 slug: "onboarding"
 draft: false
 description: "Onboarding documents for new coaching client"

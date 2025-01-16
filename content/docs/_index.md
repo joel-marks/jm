@@ -1,6 +1,6 @@
 ---
 title: "Documentation"
-description: "Learn how to use Blowfish and its features."
+description: "Onboarding for new clients."
 draft: true
 robots: none
 

@@ -20,10 +20,15 @@
   pageRef = "authors/joelmarks/about"
   weight = 20
 
+# [[main]]
+#   name = "Docs"
+#   pageRef = "docs"
+#   weight = 30
+
 [[main]]
   name = "Contact"
   url = "https://shop.joelmarks.online/contact"
-  weight = 30
+  weight = 40
 
 [[main]]
   identifier = "linkedin"
@@ -97,3 +102,8 @@
    name = "Categories"
    pageRef = "categories"
    weight = 20
+
+[[footer]]
+   name = "Privacy policy"
+   pageRef = "privacy-policy"
+   weight = 30
