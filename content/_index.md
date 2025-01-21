@@ -16,9 +16,9 @@ You need quick results. You've solved problems before. But the change isn't happ
 
 Forge your own path using 'Resolute,' and gain access to most powerful self-coaching method available.
 
-**Join the launch webinar on Feb 1 2025, book on [LinkedIn](https://www.linkedin.com/company/joel-marks-coaching/).**
+**Join the launch webinar on Feb 1 2025, book on [LinkedIn](https://www.linkedin.com/events/launchevent-recommittoyournyres7287059455970574337/comments/).**
 
-{{< button href="https://shop.joelmarks.online/resolute" target="_self" >}} Get the course {{< /button >}}
+{{< button href="https://shop.joelmarks.online/" target="_self" >}} Get the course {{< /button >}}
 
 Or for a more substantial change, get in touch with me directly and we can assess together how to get the best results through personalised coaching.
 
