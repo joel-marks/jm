@@ -72,14 +72,17 @@ When presented with the same clearing, forest and landscape, our three heroes se
 ## Building a bigger picture
 
 1. Why teams can achieve more
+
 Our first observation must be about teams. Alone, our heroes may not survive the jungle long enough to make it to safety. But together, their collection of skills will allow them to easily last a three day journey, or even longer. It will not be easy, but they can do it.
 
 We sometimes forget that to be human is to be a communal animal. We are not a lone species; we have never wandered the savanna or jungles as isolated individuals -our power has always been in cooperation. A group of three can survive for a while. A tribe of twelve can survive even if one person is hurt. As teams get larger, the cost of collaboration increases (things take longer to achieve), but so does the benefit. It took many people to build the Golden Gate Bridge, but working as a collective towards a common goal created a miracle of engineering.
 
 2. The power of coaching
+
 The second observation is about the Umwelt of each of our team members. As they talk to each other, they might uncover resources in themselves that they had forgotten about. Perhaps in the initial panic, one of them forgets that they learned in their twenties how breathing exercises can reduce stress and decrease blood flow in case of a trauma. Or maybe they might recall how, during the last year, they went on a team building away day and learned how to have conversations about trust and maintaining hope.
 
 3. How mentoring, training and education expands our options for action
+
 Not only can our hero's Unwelts be expanded through exploring their own skills, resources and experiences, but they can teach each other to see the forest in a different and more expansive way. Mike could teach Marianna how to make a shelter. Makenda can teach Mike how to collect edible fruit. It is the same forest, but it is no longer as frightening, because for each of them, they see a larger number of opportunities for personal and collective action.
 
 ## The power of coaching
