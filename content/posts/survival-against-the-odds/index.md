@@ -86,3 +86,6 @@ Not only can our hero's Unwelts be expanded through exploring their own skills, 
 Expanding our world is the core of what coaching conversations are about, and is at the heart of the solution focused approach. This story has been adapted from an original to demonstrate the power of coaching, teams and mentoring, but its core observations are the same: we each look out at the same world, but see different opportunities for action. Both in life and in business, the act of having a 'useful' conversation with a coach is a powerful tool to rediscover prior skills, resources and experiences which we can use to create powerful change in our lives, both at home and at work.
 
 But by getting clarity on our preferred future, we will notice if the path towards it implies learning new skills. Solution Focused questions can remind us of our capacity for learning and our mental flexibility. The way forward is then apparent, and may not require further sessions, as empowered action is an emergent consequence of the conversation. This is the power of Solutions Focused coaching.
+
+--
+Image credits: Unsplash and Pexels. This is an adaptation of an original story, the names and profiles are fictional.
