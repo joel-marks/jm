@@ -23,7 +23,7 @@ The heroes of our story:
 - Marianna, from Spain, pilot and post-graduate geographer - travels the world as a consultant for civil engineering projects.
 - Mike, from the UK, economist retrained, now teaching survival and bushcraft in Scotland UK.
 
-![Profiles](profiles.png)
+!(/profiles.png)
 
 Makenda and Mike look anxiously out of the window of their single engine Cessna plane. Their pilot and friend, Marianna, has been taking them on a flight across Peru, to see Machu Picchu from the air, and then into the Amazon. But something is wrong. The plane engine is smoking, and they are looking for a place to land.
 
