@@ -15,15 +15,19 @@ date: 2025-01-29
 draft: false
 ---
 
-# Survival against the odds
 **A Solution Focused Parable**
 
-![Image showing hero profiles](profiles.png "Hero profiles")
-The heroes of our story:
-- Makenda, from South Africa, Dr of Tropical Botany, University of Cape Town, South Africa.
-- Marianna, from Spain, pilot and post-graduate geographer - travels the world as a consultant for civil engineering projects.
-- Mike, from the UK, economist retrained, now teaching survival and bushcraft in Scotland UK.
-Makenda and Mike look anxiously out of the window of their single engine Cessna plane. Their pilot and friend, Marianna, has been taking them on a flight across Peru, to see Machu Picchu from the air, and then into the Amazon. But something is wrong. The plane engine is smoking, and they are looking for a place to land.
+![Image showing hero profiles](profiles.png)
+
+> - Makenda, from South Africa, Dr of Tropical Botany, University of Cape Town, South Africa.
+> - Marianna, from Spain, pilot and post-graduate geographer - travels the world as a consultant for civil engineering projects.
+> - Mike, from the UK, economist retrained, now teaching survival and bushcraft in Scotland UK.
+
+---
+
+## A crash landing
+
+**Makenda and Mike look anxiously out of the window of their single engine Cessna plane.** Their pilot and friend, Marianna, has been taking them on a flight across Peru, to see Machu Picchu from the air, and then into the Amazon. But something is wrong. The plane engine is smoking, and they are looking for a place to land.
 
 Suddenly Makenda spots it. A small, flat clearing by a straight part of a river, one of the many tributaries to the vast Amazon. Makenda has always been good at observation. She grew up in the city and teaches tropical botany in a university in South Africa where they all met as undergraduates.
 
