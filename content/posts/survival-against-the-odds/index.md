@@ -15,7 +15,7 @@ date: 2025-01-29
 draft: false
 ---
 
-**A Solution Focused Parable**
+**A Solution Focused Parable** #Umwelt #Field-of-affordances
 
 ![Image showing hero profiles](profiles.png)
 
