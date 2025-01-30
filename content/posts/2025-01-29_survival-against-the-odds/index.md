@@ -31,15 +31,15 @@ draft: false
 
 Suddenly Makenda spots it. A small, flat clearing by a straight part of a river, one of the many tributaries to the vast Amazon. Makenda has always been good at observation. She grew up in the city and teaches tropical botany in a university in South Africa where they all met as undergraduates.
 
-Growing up in the countryside in Spain, Marianna's father flew crop dusting planes, so flying was in her blood. But her real passion was geography, and she would spend hours gazing at her Dad's flying maps, trying to understand the lay of the land.
+Marianna's father flew crop dusting planes in her home town in the Spanish countryside, so flying was in her blood. But her real passion was geography, and she would spend hours gazing at her Dad's flying maps, trying to understand the lay of the land.
 
 She takes the plane in a tight circle. She can feel the engine is close to failure, and she uses the river to drop speed and height as she angles into the bank. The landing demonstrates expert flying skills she didn't know she had. The plane grinds to a halt, a wing clipping the forest just as it stops. Mike gasps, he didn't realise he'd been holding his breath.
 
 As they climb out of the plane the engine fire takes hold. They have just seconds to grab their bags.
 
-From the other end of the clearing, they watch the plane burn. Through the fog of shock, Mike starts to consider their situation. His degree in economics is no use here. But after ten years in London, he turned his back on the corporate life, retrained in survival skills, and started working for an outdoors centre in Scotland. Perhaps they can survive long enough to get to a town. But which direction is it?
+From the other end of the clearing, they watch the plane burn. Through the fog of shock, Mike starts to consider their situation. His degree in economics is no use here. But after ten years in London, he turned his back on the corporate life, retrained in survival skills, and started working for an outdoors centre in Scotland. Perhaps they can survive long enough to get to a village. But which direction should they go?
 
-The clearing had been used as a village for a while, yet nothing was left but a couple of rotten planks and dirt squares where some huts once stood. Still in shock, they find an old path, and walk into the edge of the forest. Several meters along a path they stop and look around.
+The clearing had been used by people for a while, yet nothing was left but a couple of rotten planks and dirt squares where some huts once stood. Still in shock, they find an old path, and walk into the edge of the forest. Several meters in they stop and look around.
 
 ## The first look
 
@@ -49,11 +49,11 @@ Makenda is lost. She knew that the flight plan took them on a sightseeing tour, 
 
 ## Same view, different eyes
 
-As Marianna gazes at the forest, she sees an alien landscape. She knows planes, maps and the emergence of land use zones in cities. There are berries in several of the bushes. But they could kill her. It is still morning, but they have no shelter against the rain. She knows the way to go, but they need food and maybe fire. She feels desperate. Perhaps there are wild animals here. This is a dangerous place to be alone.
+As Marianna gazes at the forest, she sees an alien landscape. She knows planes, maps and the emergence of land use zones in cities. There are berries in several of the bushes. But they could kill her. It is a clear morning, but they have no shelter against the rain. She knows the way to go, but they need food and maybe fire. She feels desperate. Perhaps there are wild animals here. This is a dangerous place to be alone.
 
-Mike looks at the same view. He knows maps too, but he didn't memorise this one. The mountain, visible through the trees is one of many they passed. It could be anywhere. As he looks forwards, he sees a plant with huge leaves. The jungle is alien to him, but this plant could form the makings of a shelter. He turns in a circle and spots several branches of a tree. It has fallen behind them near the clearing. Miraculously they seem to have dried out, rather than rotting -they have partially broken away from the trunk as they face upwards. He then sees some dry grass beside them. Within just 20 meters of their landing, they have the possibility of shelter and fire. But what are they going to eat? He knows survival in Northern Europe. Every plant here is strange.
+Mike looks at the same view. He knows maps too, but he didn't memorise this one. The mountain, visible through the trees is one of many they passed. It could be anywhere. As he looks forwards, he sees a plant with huge leaves. The jungle is alien to him, but this plant could form the makings of a shelter. He turns in a circle. Behind them, by the clearing, he spots a fallen tree. Miraculously he can see dry deadwood as some branches have broken partially free from the trunk. He then sees some dry grass beside them. Within just 20 meters of their landing, they have the possibility of shelter and fire. But what are they going to eat? He knows survival in Northern Europe. Every plant here is strange.
 
-Makenda gazes at the jungle. It is not her first time here. As a specialist in tropical rain-forest, she did her doctoral thesis on plants from the Amazon basin. There is a bush just three meters in front of them, full of berries which are not only edible but delicious. Just to her right, a tree with leaves that indigenous healers use as a medicine. But she grew up in the city. She has no idea how to cope with what will come next.
+Makenda stands beside her friends. It is not her first time in the Amazon jungle. As a specialist in tropical rain-forest, she did her doctoral thesis on plants from the Amazon basin. There is a bush just three meters in front of them, full of berries which are not only edible but delicious. Just to her right, a tree with leaves that indigenous healers use as a medicine. But she grew up in the city. She has no idea how to cope with what will come next.
 
 ## So what has this got to do with coaching?
 
@@ -71,7 +71,7 @@ When presented with the same clearing, forest and landscape, our three heroes se
 
 ## Finding their way home
 
-Our three heroes are on a path by the bank. They've been walking for a week. They see the forest thin out in front of them, and then they step into a new world. Ahead of them is a beautiful vista. The forest has been cleared to make way for wooden buildings. Children are playing by the water. Several boats are moored up, and they can hear a generator. Weary but elated, they walk into the village.
+Our three heroes are on a path by a river bank. They've been walking for a week. They see the forest thin out in front of them, and then they step into a new world. Ahead of them is a beautiful vista. The forest has been cleared to make way for wooden buildings. Children are playing by the water. Several boats are moored up, and they can hear a generator. Weary but elated, they walk into the village.
 
 1. Why teams can achieve more
 
