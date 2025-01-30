@@ -27,7 +27,7 @@
 
 [[main]]
   name = "About"
-  pageRef = "/authors/joelmarks/about/"
+  pageRef = "about"
   weight = 50
 
 [[main]]
