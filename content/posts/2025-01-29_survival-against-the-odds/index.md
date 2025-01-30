@@ -71,7 +71,7 @@ When presented with the same clearing, forest and landscape, our three heroes se
 
 ## Finding their way home
 
-Our three heroes are on a path by a river bank. They've been walking for a week. They see the forest thin out in front of them, and then they step into a new world. Ahead of them is a beautiful vista. The forest has been cleared to make way for wooden buildings. Children are playing by the water. Several boats are moored up, and they can hear a generator. Weary but elated, they walk into the village.
+Our three heroes are on a path by a river bank. They've been walking for a week. They see the forest thin out in front of them, and then they step into a new world. Ahead of them is a beautiful vista. The forest has been cleared to make way for wooden buildings. Children are playing by the water. Several boats are moored up, and they can hear a generator. Weary but elated, they walk into the village. But how did they survive?
 
 1. Why teams can achieve more
 
