@@ -43,7 +43,7 @@ The clearing had been used as a village for a while, yet nothing was left but a 
 
 ## The first look
 
-In the panic, Marianna didn't pick up the flight map and it was lost in the plane. But she has a knack for memorising maps. She knows from the flight plan and the sun which way is North. She recognised the river behind them and through the trees she sees a mountain she remembers from the map. There is a town to the West, perhaps a two or three day hike. They will have to get across the mountain and then follow the large river behind upstream. The town is on the river and there is a small airstrip there.
+In the panic, Marianna didn't pick up the flight map and it was lost in the plane. But she has a knack for memorising maps. She knows from the flight plan and the sun which way is North. She recognised the river behind them and through the trees she sees a mountain she remembers from the map. There is a community to the West, perhaps a two or three day hike. They will have to get across the mountain and then follow the large river behind upstream. The village is on the river and there is a small airstrip there.
 
 Makenda is lost. She knew that the flight plan took them on a sightseeing tour, past the Inca ruins and into the Amazon. But this is nothing she prepared for. She looks at Mike. He has a frown. Mike knows survival, but every plant here looks strange. Indeed, some look downright dangerous.
 
@@ -69,7 +69,9 @@ When presented with the same clearing, forest and landscape, our three heroes se
 - Mike the survival expert can see objects in the forest that can be used to create fire, shelter and perhaps even weapons for guarding against wild animals, or splints for a broken ankle.
 - Makenda sees none of this, but she recognises almost every plant she sees, there utility for food, water and sometimes even medicinal use.
 
-## Building a bigger picture
+## Finding their way home
+
+Our three heroes are on a path by the bank. They've been walking for a week. They see the forest thin out in front of them, and then they step into a new world. Ahead of them is a beautiful vista. The forest has been cleared to make way for wooden buildings. Children are playing by the water. Several boats are moored up, and they can hear a generator. Weary but elated, they walk into the village.
 
 1. Why teams can achieve more
 
@@ -90,5 +92,6 @@ Expanding our world is the core of what coaching conversations are about, and is
 
 But by getting clarity on our preferred future, we will notice if the path towards it implies learning new skills. Solution Focused questions can remind us of our capacity for learning and our mental flexibility. The way forward is then apparent, and may not require further sessions, as empowered action is an emergent consequence of the conversation. This is the power of Solutions Focused coaching.
 
---
+__
+
 Image credits: Unsplash and Pexels. This is an adaptation of an original story, the names and profiles are fictional.
