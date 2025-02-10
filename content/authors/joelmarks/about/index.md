@@ -53,3 +53,7 @@ I am the founder of Nxtwell Ltd., a leadership, team and wellbeing collaboration
 ## Academic
 
 The Open University, BSc Hons (Open) and CertHE with Liverpool University. I have read courses in (most recent first) international business collaboration, social marketing, business management (government, non-profit), international development, computer information systems and psychology.
+
+## Other
+
+Joel is a psychedelic plant medicine informed practitioner.
