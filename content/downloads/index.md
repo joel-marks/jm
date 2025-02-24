@@ -18,6 +18,7 @@ showLikes : false
 showZenMode : false
 
 ---
+Right click to download
 
 #### Hybrid Stress Reduction Programme
 
@@ -26,5 +27,5 @@ showZenMode : false
 
 
 {{< button href="./Hybrid-SRP-8min-grounding-hypno-meditation.mp3" target="_self" >}}
-Download
+▶ Play
 {{< /button >}}&nbsp;&nbsp;8 minute Grounding hypno-meditation
