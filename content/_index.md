@@ -7,19 +7,18 @@ description: "Joel Marks - Solution Focused coaching."
   tag=h1
   lifeLike=true
 >}}
-Resolute_
+What does better look like?
 {{< /typeit >}}
 
-{{< lead >}}<span class='quicksand-medium'>That feeling you get before everything changes.<br></span>{{< /lead >}}
+{{< lead >}}<span class='quicksand-medium'>I help leaders, managers and creatives Manage Stress, Motivation and Self-Mastery with tips, downloads and coaching tools.<br></span>{{< /lead >}}
 —<br>
-You need quick results. You've solved problems before. But the change isn't happening. **Here's how to fix it:**
 
-Forge your own path using 'Resolute,' and gain access to most powerful self-coaching method available.
-
-For a limited time, **to get your FREE copy DM me on linkedin**.
-
-{{< button href="https://linkedin.com/in/joel-marks" target="_self" >}} Connect {{< /button >}} &nbsp;&nbsp; {{< button href="https://shop.joelmarks.online/resolute" target="_self" >}} Get the course {{< /button >}}
-
-Or for a more substantial change, get in touch with me directly. I help 25-45 year old creatives, entrepreneurs and high performers to break through creative barriers and create sustainable change without burnout. To do this I work within a three point plan: 1. Up to the minute productiviy systems hacking, 2. A complete Solution Focused coaching process 3. Engagement with mindfulness and balance. Let's look together at how you are going to unlock your talents through personalised coaching.
+If you are struggling with STRESS in work or life, my 90 day transformation programme will create a substantial shift in your experience, or your money back. Book a free conversation today. Tell me what's going on for you, and what finding your inner calm means for your life.
 
 {{< button href="https://shop.joelmarks.online/contact/" target="_self" >}} Book a call {{< /button >}}
+
+On my LinkedIn page you'll find coaching resources and downloads or click the resources menu link.
+
+Would you like to try Solution Focused coaching for yourself? Forge your own path using 'Resolute,' and gain access to most powerful self-coaching method available.
+
+{{< button href="https://shop.joelmarks.online/resolute" target="_self" >}} Get the course {{< /button >}}
