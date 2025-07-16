@@ -1,0 +1,110 @@
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://nunocoracao.github.io/blowfish/docs/configuration/#theme-parameters
+
+colorScheme = "noir"
+defaultAppearance = "light" # valid options: light or dark
+autoSwitchAppearance = false
+
+disableTextInHeader = true # removes text version of logo
+# defaultBackgroundImage = "img/background.jpg" # used as default for background images
+# defaultFeaturedImage = "img/featured.jpg"  # used as default for featured images in all articles
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
+
+enableSearch = true
+enableCodeCopy = true
+
+mainSections = ["posts"] #if you had content sections for posts and projects you could set this setting to ["posts", "projects"] and all the articles in these two sections would be used to populate the recent list
+
+[header]
+  layout = "fixed" # valid options: basic, fixed
+
+[footer]
+ # showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+    layout = "custom2" # valid options: profile, page, hero, background, card, custom -requires layouts/partials/home/custom.html
+    showHero = true
+    heroStyle = "background"
+    layoutBackgroundBlur = true
+    layoutBackgroundHeaderSpace = false
+    homepageImage = "img/moutains_joelmarks_pexels-koustabh-biswas-3737179.jpg"
+    homepageCard = "img/mockup.png" # additional parameter by joel inserted in custom
+    showRecent = true
+    showRecentItems = 3
+    showMoreLink = true
+    showMoreLinkDest = "/posts"
+    cardView = false
+    cardViewScreenWidth = false
+
+[article]
+  showDate = true
+  #showViews = true
+  #showLikes = true
+  showDateUpdated = false
+  showAuthor = true
+  showHero = true
+  heroStyle = "basic" # valid options: basic, big, background
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  # editURL = "https://github.com/username/repo/"
+  editAppendPath = true
+  seriesOpened = false
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = false 
+  showAuthorsBadges = false 
+  showWordCount = true
+  showSummary = true
+  sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
+  showZenMode = true
+
+[list]
+  showHero = true
+  heroStyle = "basic" # valid options: basic, big, background
+  layoutBackgroundHeaderSpace = false
+  showBreadcrumbs = false
+  showSummary = true
+  showTableOfContents = false
+  showCards = true
+  groupByYear = false
+  cardView = false
+  cardViewScreenWidth = false
+
+[sitemap]
+  excludedKinds = []
+
+[taxonomy]
+  showTermCount = true
+
+[firebase]
+  # apiKey = "XXXXXX"
+  # authDomain = "XXXXXX"
+  # projectId = "XXXXXX"
+  # storageBucket = "XXXXXX"
+  # messagingSenderId = "XXXXXX"
+  # appId = "XXXXXX"
+  # measurementId = "XXXXXX"
+
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
