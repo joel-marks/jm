@@ -10,8 +10,8 @@ defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 
 disableTextInHeader = true # removes text version of logo
-# defaultBackgroundImage = "img/background.jpg" # used as default for background images
-# defaultFeaturedImage = "img/featured.jpg"  # used as default for featured images in all articles
+defaultBackgroundImage = "img/background.jpg" # used as default for background images
+defaultFeaturedImage = "img/featured.jpg"  # used as default for featured images in all articles
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
@@ -21,11 +21,13 @@ enableCodeCopy = true
 
 mainSections = ["posts"] #if you had content sections for posts and projects you could set this setting to ["posts", "projects"] and all the articles in these two sections would be used to populate the recent list
 
+# robots = ""
+
 [header]
   layout = "fixed" # valid options: basic, fixed
 
 [footer]
- # showMenu = true
+  showMenu = true
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
@@ -38,7 +40,7 @@ mainSections = ["posts"] #if you had content sections for posts and projects you
     layoutBackgroundBlur = true
     layoutBackgroundHeaderSpace = false
     homepageImage = "img/moutains_joelmarks_pexels-koustabh-biswas-3737179.jpg"
-    homepageCard = "img/mockup.png" # additional parameter by joel inserted in custom
+    homepageCard = "mockup.png" # additional parameter by joel inserted in custom
     showRecent = true
     showRecentItems = 3
     showMoreLink = true
@@ -51,7 +53,7 @@ mainSections = ["posts"] #if you had content sections for posts and projects you
   #showViews = true
   #showLikes = true
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showHero = true
   heroStyle = "basic" # valid options: basic, big, background
   showBreadcrumbs = true
@@ -70,6 +72,8 @@ mainSections = ["posts"] #if you had content sections for posts and projects you
   showWordCount = true
   showSummary = true
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
+  showViews = true
+  showLikes = true
   showZenMode = true
 
 [list]
@@ -91,13 +95,13 @@ mainSections = ["posts"] #if you had content sections for posts and projects you
   showTermCount = true
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+    apiKey = "AIzaSyBuhGc8c4nVlT4yD7i4T3zY4FX6O6TZP8U"
+    authDomain = "joelmarks-homepage.firebaseapp.com"
+    projectId = "joelmarks-homepage"
+    storageBucket = "joelmarks-homepage.appspot.com"
+    messagingSenderId = "944746670782"
+    appId = "1:944746670782:web:fb27a85a04a048729fccef"
+    measurementId = "GG-Y5KL76FM6Q"
 
 [fathomAnalytics]
   # site = "ABC12345"

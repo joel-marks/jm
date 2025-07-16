@@ -17,6 +17,9 @@ enableEmoji = true
 
 googleAnalytics = "G-Y5KL76FM6Q"
 
+[imaging]
+anchor = "Center"
+
 [taxonomies]
   tag = "tags"
   category = "categories"
