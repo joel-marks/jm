@@ -10,6 +10,13 @@ description: "Pricing and coaching system"
 robots: none
 ---
 
+## Pricing
+
+- New clients: £750 for the inital 3 session package
+
+- £250/session thereafter, coahing or personalised hypnotherapy with download
+
+
 ## Process for new clients
 
 Free discovery call. A conversation to mutually assess whether we are a good fit to work together. You can ask me anything, and I will be looking at where you are in your journey.
@@ -21,9 +28,3 @@ Free discovery call. A conversation to mutually assess whether we are a good fit
 3. Session 3 (around 1hr). Looking at what you've learned so far, tweaking approach, staying focused on outcomes.
 
 I am available for free follow up consultation or referral.
-
-## Pricing
-
-- New clients: £750 for the inital 3 session package
-
-- £250/session thereafter, coahing or personalised hypnotherapy with download
