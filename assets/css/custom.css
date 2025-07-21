@@ -1,0 +1,81 @@
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700 */
+
+/* FONTS LOADED IN HEAD for import, but Blowfish want to download them */
+
+.quicksand-light {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.quicksand-medium {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tourney-light {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+    line-height: 2.7rem;
+}
+
+.tourney-regular {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.questrial-regular {
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outline-title-font {
+    -webkit-text-stroke: 1.5px var(--title-stroke-color); /* Matches existing stroke width */
+    text-stroke: 1.5px var(--title-stroke-color);
+    color: transparent; /* Makes the fill transparent, showing only the stroke */
+}
+
+.noto-sans-regular {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Change basic site font */
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 90;
+  font-size: 1.2rem;
+}
+
+/* Resize logo */
+a.flex > img.logo {
+    max-width: 12rem;
+}
+
+/* Non mobile nav font (not dropdown) */
+.main-menu nav.md\:flex a p {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
+}
+
+
+.grayscale {
+  filter: grayscale(100%);
+}

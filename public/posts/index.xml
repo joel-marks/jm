@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blowfish</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Joel Marks</copyright>
+    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Book review: The Mind Is Flat</title>
+      <link>http://localhost:1313/posts/2025-02-06_review_the-mind-is-flat/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-02-06_review_the-mind-is-flat/</guid>
+      <description>Review of The Mind Is Flat, challenging the concept of mental depth</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-02-06_review_the-mind-is-flat/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Survival against the odds</title>
+      <link>http://localhost:1313/posts/2025-01-29_survival-against-the-odds/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-01-29_survival-against-the-odds/</guid>
+      <description>A Solution Focused parable to explain how coaching broadens our world-view</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-01-29_survival-against-the-odds/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Was Alan Watts wrong about the phone?</title>
+      <link>http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/</guid>
+      <description>How to understand one of Alan Watts most famous quotes.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/featured.jpeg" />
+    </item>
+    
+    <item>
+      <title>Psychedelics and coaching</title>
+      <link>http://localhost:1313/posts/2024-04-08_psychedelics-and-coaching/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-04-08_psychedelics-and-coaching/</guid>
+      <description>Why it is important for coaches to be informed about modern use of psychedelics for healing.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-04-08_psychedelics-and-coaching/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Becoming a solution focused coach</title>
+      <link>http://localhost:1313/posts/2024-04-04_becoming-a-solution-focused-coach/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-04-04_becoming-a-solution-focused-coach/</guid>
+      <description>How learning coaching skills can transform your life</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-04-04_becoming-a-solution-focused-coach/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>What is Solution Focused coaching</title>
+      <link>http://localhost:1313/posts/2024-04-04_what-is-solution-focused/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-04-04_what-is-solution-focused/</guid>
+      <description>What is Solution Focused and why is it different from other coaching methods.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-04-04_what-is-solution-focused/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

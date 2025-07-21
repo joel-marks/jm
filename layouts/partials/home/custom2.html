@@ -1,0 +1,431 @@
+<main class="container mx-auto px-4 pb-12 max-w-7xl">
+
+    <section class="relative flex flex-col items-start justify-center min-h-[200px] md:min-h-[250px] lg:min-h-[300px]">
+        <div id="text-container" class="max-w-3xl mx-auto w-full relative z-[999]" style="padding-top: 18vh; padding-bottom: 10vh;">
+            <div id="title-hook"
+                class="tourney-light leading-[0.7] text-5xl sm:text-6xl md:text-7xl leading-tight relative z-20 inline-block"
+                style="font-size: 4rem;">
+                {{ .Params.title_hook }}
+            </div>
+            <p class="quicksand-medium text-2xl md::text-3xl text-gray-400 mt-4 relative z-20 pl-[2px]">
+                {{ .Params.subheading_hook }}
+            </p>
+        </div>
+        <div id="mini-cube-container" class="absolute z-10"></div>
+    </section>
+
+    <section class="mt-12 py-8">
+        <div class="max-w-3xl mx-auto text-left">
+            <p class="quicksand-medium text-lg md:text-xl text-gray-700 dark:text-gray-300">
+                {{ .Params.intro_text }}
+            </p>
+        </div>
+    </section>
+
+    <section class="mt-12 py-8">
+        <div class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            {{ range .Params.features }}
+            <div class="feature-block p-6 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white bg-white text-gray-800 flex flex-col items-center text-center">
+                <div class="p5-feature-cube-container" style="width: 72px; height: 72px;"></div>
+                <h3 class="feature-headline text-xl md:text-2xl font-bold mt-4 mb-2">{{ .headline }}</h3>
+                <p class="feature-copy text-base text-gray-600 dark:text-gray-300">{{ .copy }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <section class="mt-20 py-8">
+        <div class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-700 prose dark:prose-invert">
+            {{ .Params.copy | markdownify }}
+        </div>
+    </section>
+
+    <section class="mt-4 py-2 flex justify-center">
+        <div class="p5-centered-cube-container" style="width: 72px; height: 72px;"></div>
+    </section>
+    <section class="mt-4 py-8 mb-16">
+        <div class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-700 prose dark:prose-invert">
+            {{ .Content | emojify }}
+        </div>
+    </section>
+
+    <section>
+        {{ partial "recent-articles/main.html" . }}
+    </section>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+<script>
+    // Helper to parse RGB strings (e.g., "rgb(255, 255, 255)") into an object {r, g, b}
+    function parseRgbString(rgbString) {
+        const match = rgbString.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+        if (match) {
+            return {
+                r: parseInt(match[1], 10),
+                g: parseInt(match[2], 10),
+                b: parseInt(match[3], 10)
+            };
+        }
+        return { r: 0, g: 0, b: 0 }; // Default to black if parsing fails
+    }
+
+    // Sketch for the main hero cube
+    let heroCubeSketch = function(p) {
+        let cubeContainer;
+        let titleElement;
+        let currentBgColor;
+        let cubeStrokeColor;
+
+        function updateColors() {
+            const isDarkMode = document.documentElement.classList.contains('dark');
+            const bodyBg = window.getComputedStyle(document.body).backgroundColor;
+            currentBgColor = parseRgbString(bodyBg);
+
+            if (isDarkMode) {
+                cubeStrokeColor = { r: 255, g: 255, b: 255 }; // White for dark mode
+            } else {
+                cubeStrokeColor = { r: 0, g: 0, b: 0 }; // Black for light mode
+            }
+
+            const titleStrokeHexColor = isDarkMode ? "#DCDCDC" : "#1f2937";
+            if (titleElement) {
+                titleElement.style.setProperty('--title-stroke-color', titleStrokeHexColor);
+            }
+        }
+
+        p.setup = function() {
+            cubeContainer = document.getElementById('mini-cube-container');
+            titleElement = document.getElementById('title-hook');
+
+            let canvas = p.createCanvas(72, 72, p.WEBGL);
+            canvas.parent('mini-cube-container');
+
+            p.angleMode(p.DEGREES);
+            p.strokeWeight(1.5);
+            p.noFill();
+
+            updateColors();
+
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                        updateColors();
+                        p.redraw();
+                    }
+                });
+            });
+            observer.observe(document.documentElement, { attributes: true });
+
+            p.windowResized();
+        };
+
+        p.draw = function() {
+            p.background(currentBgColor.r, currentBgColor.g, currentBgColor.b);
+            p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230); // Alpha value for subtle blend
+            p.translate(0, 0, 0);
+            p.rotateX(p.frameCount * 0.5);
+            p.rotateY(p.frameCount * 0.3);
+            p.box(36);
+        };
+
+        p.windowResized = function() {
+            if (cubeContainer && titleElement) {
+                const titleRect = titleElement.getBoundingClientRect();
+                const parentRect = titleElement.parentElement.parentElement.getBoundingClientRect();
+
+                const leftOffset = (titleRect.left - parentRect.left + (titleRect.width * 0.05)) - 75;
+                const topOffset = (titleRect.top - parentRect.top - (cubeContainer.offsetHeight / 2) + (titleRect.height * 0.1)) - 15;
+
+                cubeContainer.style.left = `${leftOffset}px`;
+                cubeContainer.style.top = `${topOffset}px`;
+            }
+        };
+    };
+
+    // Sketch for the first feature cube (single side visible)
+    let featureCubeSketch = function(p) {
+        let currentBgColor;
+        let cubeStrokeColor;
+        let boxSize = 36;
+        let halfSize = boxSize / 2;
+
+        function updateColors() {
+            const isDarkMode = document.documentElement.classList.contains('dark');
+            const bodyBg = window.getComputedStyle(document.body).backgroundColor;
+            currentBgColor = parseRgbString(bodyBg);
+
+            // MODIFIED for black/white and transparency consistency
+            if (isDarkMode) {
+                cubeStrokeColor = { r: 255, g: 255, b: 255 }; // White for dark mode
+            } else {
+                cubeStrokeColor = { r: 0, g: 0, b: 0 }; // Black for light mode
+            }
+        }
+
+        p.setup = function() {
+            let canvas = p.createCanvas(72, 72, p.WEBGL);
+            canvas.parent(p.canvas.parentElement);
+
+            p.angleMode(p.DEGREES);
+            p.strokeWeight(1.5); // MODIFIED: Thinner stroke
+            p.noFill();
+
+            updateColors();
+
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                        updateColors();
+                        p.redraw();
+                    }
+                });
+            });
+            observer.observe(document.documentElement, { attributes: true });
+        };
+
+        p.draw = function() {
+            p.background(currentBgColor.r, currentBgColor.g, currentBgColor.b);
+
+            p.push();
+            p.rotateX(p.frameCount * 0.5);
+            p.rotateY(p.frameCount * 0.3);
+            p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230); // MODIFIED: Added alpha for subtle blend
+
+            // Draw the front face (Z = halfSize)
+            p.line(-halfSize, -halfSize, halfSize,
+                   halfSize, -halfSize, halfSize); // Top edge
+            p.line(halfSize, -halfSize, halfSize,
+                   halfSize, halfSize, halfSize);   // Right edge
+            p.line(halfSize, halfSize, halfSize,
+                   -halfSize, halfSize, halfSize);   // Bottom edge
+            p.line(-halfSize, halfSize, halfSize,
+                   -halfSize, -halfSize, halfSize); // Left edge
+
+            p.pop();
+        };
+    };
+
+    // Sketch for the second feature cube (two connected sides visible)
+    let featureCubeSketchTwoSides = function(p) {
+        let currentBgColor;
+        let cubeStrokeColor;
+        let boxSize = 36;
+        let halfSize = boxSize / 2;
+
+        function updateColors() {
+            const isDarkMode = document.documentElement.classList.contains('dark');
+            const bodyBg = window.getComputedStyle(document.body).backgroundColor;
+            currentBgColor = parseRgbString(bodyBg);
+
+            // MODIFIED for black/white and transparency consistency
+            if (isDarkMode) {
+                cubeStrokeColor = { r: 255, g: 255, b: 255 }; // White for dark mode
+            } else {
+                cubeStrokeColor = { r: 0, g: 0, b: 0 }; // Black for light mode
+            }
+        }
+
+        p.setup = function() {
+            let canvas = p.createCanvas(72, 72, p.WEBGL);
+            canvas.parent(p.canvas.parentElement);
+
+            p.angleMode(p.DEGREES);
+            p.strokeWeight(1.5); // MODIFIED: Thinner stroke
+            p.noFill();
+
+            updateColors();
+
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                        updateColors();
+                        p.redraw();
+                    }
+                });
+            });
+            observer.observe(document.documentElement, { attributes: true });
+        };
+
+        p.draw = function() {
+            p.background(currentBgColor.r, currentBgColor.g, currentBgColor.b);
+
+            p.push();
+            p.rotateX(p.frameCount * 0.5);
+            p.rotateY(p.frameCount * 0.3);
+            p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230); // MODIFIED: Added alpha for subtle blend
+
+            let h = halfSize; // Alias for halfSize
+
+            // Edges for the FRONT face (Z = h) - 4 edges
+            p.line(-h, -h, h,  h, -h, h); // Top
+            p.line( h, -h, h,  h,  h, h); // Right (SHARED)
+            p.line( h,  h, h, -h,  h, h); // Bottom
+            p.line(-h,  h, h, -h, -h, h); // Left - CORRECTED
+
+            // Edges for the RIGHT face (X = h) - 3 NEW edges (one shared with front)
+            p.line(h, -h, h, h, -h, -h); // Top right (connects front to back)
+            p.line(h,  h, h, h,  h, -h); // Bottom right (connects front to back)
+            p.line(h, -h, -h, h,  h, -h); // Back right (vertical)
+
+            p.pop();
+        };
+    };
+
+    // Sketch for the third feature cube (three sides visible, with top/bottom connected via opposite edges)
+    let featureCubeSketchThreeSides = function(p) {
+        let currentBgColor;
+        let cubeStrokeColor;
+        let boxSize = 36;
+        let h = boxSize / 2; // Alias for halfSize
+
+        function updateColors() {
+            const isDarkMode = document.documentElement.classList.contains('dark');
+            const bodyBg = window.getComputedStyle(document.body).backgroundColor;
+            currentBgColor = parseRgbString(bodyBg);
+
+            // MODIFIED for black/white and transparency consistency
+            if (isDarkMode) {
+                cubeStrokeColor = { r: 255, g: 255, b: 255 }; // White for dark mode
+            } else {
+                cubeStrokeColor = { r: 0, g: 0, b: 0 }; // Black for light mode
+            }
+        }
+
+        p.setup = function() {
+            let canvas = p.createCanvas(72, 72, p.WEBGL);
+            canvas.parent(p.canvas.parentElement);
+
+            p.angleMode(p.DEGREES);
+            p.strokeWeight(1.5); // MODIFIED: Thinner stroke
+            p.noFill();
+
+            updateColors();
+
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                        updateColors();
+                        p.redraw();
+                    }
+                });
+            });
+            observer.observe(document.documentElement, { attributes: true });
+        };
+
+        p.draw = function() {
+            p.background(currentBgColor.r, currentBgColor.g, currentBgColor.b);
+
+            p.push();
+            p.rotateX(p.frameCount * 0.5);
+            p.rotateY(p.frameCount * 0.3);
+            p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230); // MODIFIED: Added alpha for subtle blend
+
+            // Edges for the CENTER (FRONT) face (Z = +h) - 4 edges
+            p.line(-h, -h, h,  h, -h, h); // Front Top (shared with TOP face)
+            p.line( h, -h, h,  h,  h, h); // Front Right
+            p.line( h,  h, h, -h,  h, h); // Front Bottom (shared with BOTTOM face)
+            p.line(-h,  h, h, -h, -h, h); // Front Left
+
+            // Edges for the TOP face (Y = -h) - 3 NEW edges (one shared with Front Top)
+            p.line( h, -h, h,  h, -h, -h); // Top-Right (connects front to back)
+            p.line(-h, -h, h, -h, -h, -h); // Top-Left (connects front to back)
+            p.line(-h, -h, -h, h, -h, -h); // Top-Back edge
+
+            // Edges for the BOTTOM face (Y = +h) - 3 NEW edges (one shared with Front Bottom)
+            p.line( h,  h, h,  h,  h, -h); // Bottom-Right (connects front to back)
+            p.line(-h,  h, h, -h,  h, -h); // Bottom-Left (connects front to back)
+            p.line(-h,  h, -h, h,  h, -h); // Bottom-Back edge
+
+            p.pop();
+        };
+    };
+
+    // Sketch for the single centered cube (now showing only two opposite faces)
+    let centeredCubeSketch = function(p) {
+        let currentBgColor;
+        let cubeStrokeColor;
+        let boxSize = 36;
+        let h = boxSize / 2; // Alias for halfSize
+
+        function updateColors() {
+            const isDarkMode = document.documentElement.classList.contains('dark');
+            const bodyBg = window.getComputedStyle(document.body).backgroundColor;
+            currentBgColor = parseRgbString(bodyBg);
+
+            if (isDarkMode) {
+                cubeStrokeColor = { r: 255, g: 255, b: 255 }; // White for dark mode
+            } else {
+                cubeStrokeColor = { r: 0, g: 0, b: 0 }; // Black for light mode
+            }
+        }
+
+        p.setup = function() {
+            let canvas = p.createCanvas(72, 72, p.WEBGL);
+            canvas.parent(p.canvas.parentElement); // Attach to the parent div
+
+            p.angleMode(p.DEGREES);
+            p.strokeWeight(1.5);
+            p.noFill();
+
+            updateColors();
+
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                        updateColors();
+                        p.redraw();
+                    }
+                });
+            });
+            observer.observe(document.documentElement, { attributes: true });
+        };
+
+        p.draw = function() {
+            p.background(currentBgColor.r, currentBgColor.g, currentBgColor.b);
+            p.push();
+            p.rotateX(p.frameCount * 0.5);
+            p.rotateY(p.frameCount * 0.3);
+            p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
+
+            // Draw edges for the FRONT face (Z = +h)
+            p.line(-h, -h, h,  h, -h, h); // Top
+            p.line( h, -h, h,  h,  h, h);   // Right
+            p.line( h,  h, h, -h,  h, h);   // Bottom
+            p.line(-h,  h, h, -h, -h, h); // Left
+
+            // Draw edges for the BACK face (Z = -h)
+            p.line(-h, -h, -h,  h, -h, -h); // Top
+            p.line( h, -h, -h,  h,  h, -h);   // Right
+            p.line( h,  h, -h, -h,  h, -h);   // Bottom
+            p.line(-h,  h, -h, -h, -h, -h); // Left
+
+            p.pop();
+        };
+    };
+
+
+    // Initialize the main hero cube p5 instance
+    new p5(heroCubeSketch, 'mini-cube-container');
+
+    // Initialize p5 instances for each feature block AND the new centered cube after the DOM is fully loaded
+    document.addEventListener('DOMContentLoaded', () => {
+        const featureCubeContainers = document.querySelectorAll('.p5-feature-cube-container');
+        featureCubeContainers.forEach((container, index) => {
+            if (index === 1) { // This targets the SECOND feature block (0-indexed)
+                new p5(featureCubeSketchTwoSides, container);
+            } else if (index === 2) { // This targets the THIRD feature block (0-indexed)
+                new p5(featureCubeSketchThreeSides, container);
+            }
+            else { // All other feature blocks get the default single-side animation
+                new p5(featureCubeSketch, container);
+            }
+        });
+
+        // Initialize the new centered cube
+        const centeredCubeContainer = document.querySelector('.p5-centered-cube-container');
+        if (centeredCubeContainer) {
+            new p5(centeredCubeSketch, centeredCubeContainer);
+        }
+    });
+</script>

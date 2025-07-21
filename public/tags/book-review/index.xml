@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book-Review on Blowfish</title>
+    <link>http://localhost:1313/tags/book-review/</link>
+    <description>Recent content in Book-Review on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Joel Marks</copyright>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Book review: The Mind Is Flat</title>
+      <link>http://localhost:1313/posts/2025-02-06_review_the-mind-is-flat/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-02-06_review_the-mind-is-flat/</guid>
+      <description>Review of The Mind Is Flat, challenging the concept of mental depth</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-02-06_review_the-mind-is-flat/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

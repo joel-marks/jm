@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Psychedelics on Blowfish</title>
+    <link>http://localhost:1313/tags/psychedelics/</link>
+    <description>Recent content in Psychedelics on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Joel Marks</copyright>
+    <lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/psychedelics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Was Alan Watts wrong about the phone?</title>
+      <link>http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/</guid>
+      <description>How to understand one of Alan Watts most famous quotes.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/featured.jpeg" />
+    </item>
+    
+    <item>
+      <title>Psychedelics and coaching</title>
+      <link>http://localhost:1313/posts/2024-04-08_psychedelics-and-coaching/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2024-04-08_psychedelics-and-coaching/</guid>
+      <description>Why it is important for coaches to be informed about modern use of psychedelics for healing.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-04-08_psychedelics-and-coaching/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
