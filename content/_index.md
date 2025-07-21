@@ -24,9 +24,9 @@ For digital nomads, creatives & solopreneurs who sense something deeper holding 
 An intensive, bespoke process combining solution‑focused dialogue with hypnotic and somatic practices to unlock transformative breakthroughs."
 ---
 
-### Expertise & Credibility:
+### Expertise & Approach:
 
-Trained in Clinical Hypnotherapy (ICCHP) & Solution‑Focused Practice. I bring a unique neurodivergent lens and deep inquiry into consciousness, systems, and embodiment to enhance every session.
+Trained in Clinical Hypnotherapy (ICCHP) & Solution‑Focused Practice (BRIEF). I bring a unique neurodivergent lens and deep inquiry into consciousness, systems, and embodiment to enhance every session.
 
 ### Act Now:
 
