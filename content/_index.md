@@ -32,4 +32,3 @@ Trained in Clinical Hypnotherapy (ICCHP) & Solution‑Focused Practice. I bring 
 
 Book a free discovery call and begin your transformation.
 
-{{< whatsapp "contact-btn-1" >}}
