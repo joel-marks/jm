@@ -8,6 +8,8 @@ tags: ["Book-Review"]
 
 authors:
   - "joelmarks"
+showAuthor: true
+showAuthorBottom: true
 
 date: 2025-02-06
 draft: false

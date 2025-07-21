@@ -838,14 +838,12 @@
 <div id="whatsapp-btn-contact-btn-1"></div>
 
 <script>
-document.getElementById('whatsapp-btn-contact-btn-1').innerHTML = `
-<a href="https://wa.me/447817596004?text=Hello\u002bJoel%2C\u002bI%27d\u002blike\u002bto\u002btalk\u002babout\u002bcoaching%21"
-  class="
-    !rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline
-    hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700
-  ">
-    Chat on WhatsApp
-</a>`;
+  var btn = document.getElementById('whatsapp-btn-contact-btn-1');
+  var html = '<a href="https://wa.me/447817596004?text=Hello\u002bJoel%2C\u002bI%27d\u002blike\u002bto\u002btalk\u002babout\u002bcoaching%21"'
+           + ' class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline'
+           + ' hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">'
+           + 'Chat on WhatsApp</a>';
+  btn.innerHTML = html;
 </script>
 
 
@@ -1087,27 +1085,6 @@ document.getElementById('whatsapp-btn-contact-btn-1').innerHTML = `
   </div>
 
   
-    <div class="flex flex-row flex-wrap items-center">
-      
-        
-          
-            
-              
-              <div class="cursor-pointer" onclick="window.open(&#34;/authors/joelmarks/&#34;,'_self');return false;">
-                Joel Marks
-              </div>
-            
-          
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  
 
   
   
@@ -1221,27 +1198,6 @@ document.getElementById('whatsapp-btn-contact-btn-1').innerHTML = `
     
   </div>
 
-  
-    <div class="flex flex-row flex-wrap items-center">
-      
-        
-          
-            
-              
-              <div class="cursor-pointer" onclick="window.open(&#34;/authors/joelmarks/&#34;,'_self');return false;">
-                Joel Marks
-              </div>
-            
-          
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
   
 
   

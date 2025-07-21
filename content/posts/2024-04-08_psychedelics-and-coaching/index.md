@@ -6,10 +6,10 @@ tags: ["Coaching","Psychedelics"]
 #externalUrl: ""
 #showSummary: true
 
-showAuthor: false
-showAuthorsBadges: true
 authors:
   - "joelmarks"
+showAuthor: true
+showAuthorBottom: true
 
 date: 2024-04-08
 draft: false

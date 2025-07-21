@@ -8,11 +8,16 @@ showWordCount: false
 draft: false
 description: "Pricing and coaching system"
 robots: none
+
+authors:
+  - "joelmarks"
+showAuthor: false
+showAuthorBottom: true
 ---
 
 ## Pricing
 
-- New clients: £750 for the inital 3 session package
+{{< lead >}}New clients: £750 for the inital 3 session package{{< /lead >}}
 
 - £250/session thereafter, coahing or personalised hypnotherapy with download
 

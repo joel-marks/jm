@@ -72,7 +72,7 @@ mainSections = ["posts"] #if you had content sections for posts and projects you
   showSummary = true
   showTableOfContents = false
   showCards = false
-  groupByYear = true
+  groupByYear = false
   cardView = false
   cardViewScreenWidth = false
 

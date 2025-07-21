@@ -6,10 +6,10 @@ tags: ["Coaching","Solution-Focused"]
 #externalUrl: ""
 #showSummary: true
 
-showAuthor: false
-showAuthorsBadges: true
 authors:
   - "joelmarks"
+showAuthor: true
+showAuthorBottom: true
 
 date: 2024-04-04
 draft: false
