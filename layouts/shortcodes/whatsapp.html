@@ -1,11 +1,10 @@
 {{- $text := urlquery "Hello Joel, I'd like to talk about coaching!" -}}
-<div id="whatsapp-btn-{{ .Get 0 }}"></div>
+{{- $link := printf "https://wa.me/447817596004?text=%s" $text -}}
 
-<script>
-  var btn = document.getElementById('whatsapp-btn-{{ .Get 0 }}');
-  var html = '<a href="https://wa.me/447817596004?text={{ $text }}"'
-           + ' class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline'
-           + ' hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">'
-           + 'Chat on WhatsApp</a>';
-  btn.innerHTML = html;
-</script>
+<div id="whatsapp-btn-{{ .Get 0 }}">
+  <a href="{{ $link }}" target="_blank" rel="noopener noreferrer"
+     class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline
+            hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700">
+    Chat on WhatsApp
+  </a>
+</div>
