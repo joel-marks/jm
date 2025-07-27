@@ -30,6 +30,42 @@
     </item>
     
     <item>
+      <title>Pricing</title>
+      <link>http://localhost:1313/pricing/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pricing/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Pricing 
+    &lt;div id=&#34;pricing&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#pricing&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;div class=&#34;lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl&#34;&gt;
+  New clients: £750 for the inital 3 session package
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;£250/session thereafter, coahing or personalised hypnotherapy with download&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Process for new clients 
+    &lt;div id=&#34;process-for-new-clients&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#process-for-new-clients&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Free discovery call. A conversation to mutually assess whether we are a good fit to work together. You can ask me anything, and I will be looking at where you are in your journey.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
       <title>Was Alan Watts wrong about the phone?</title>
       <link>http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>

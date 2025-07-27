@@ -6,7 +6,7 @@ draft: false
 
 title_hook: "Rewire Yourself"
 subheading_hook: "beyond old limitations_"
-intro_text: "I help digtal nomads, solopreneurs and creatives optimise outcomes through solution focused dialogue and mind-body integration."
+intro_text: "I help digtal nomads, solopreneurs and creatives optimise outcomes through solution focused dialogue and hypnotherapy."
 features:
   - headline: "Outcome oriented"
     copy: "—lock in your goals and break through stasis."
