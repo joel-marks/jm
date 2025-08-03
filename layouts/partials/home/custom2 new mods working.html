@@ -1,5 +1,9 @@
 <style>
-  /* use theme’s neutral colours for an opaque panel background */
+  /* Custom style for debugging the large cube container */
+  #large-cube-container {
+    border: 1px solid pink;
+  }
+    /* use theme’s neutral colours for an opaque panel background */
   .feature-block {
     background-color: rgba(var(--color-neutral-50), 1) !important;
     position: relative !important;
@@ -23,11 +27,12 @@
     </p>
   </div>
   <div id="mini-cube-container" class="absolute z-10"></div>
+</section>
 
   <!-- Fixed large cube container, behind everything -->
   <div id="large-cube-container"
-     class="fixed w-[130vw] aspect-square left-[15%] top-1/2 transform -translate-y-1/2 md:w-[95vw] md:h-[95vw] md:left-[15%] md:top-1/2 z-[-10]"
-     style="z-index:-10;">
+       class="fixed w-[95vw] h-[95vw] left-[10%] top-1/2 transform -translate-y-1/2"
+       style="z-index: -10;">
   </div>
 
   <section class="mt-12 py-8">
@@ -69,6 +74,7 @@
   <section>
     {{ partial "recent-articles/main.html" . }}
   </section>
+
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
@@ -78,104 +84,68 @@
     const m = rgbString.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
     return m
       ? { r: +m[1], g: +m[2], b: +m[3] }
-      : { r: 0, g: 0, b: 0 };
+      : { r: 0,   g: 0,   b: 0   };
   }
 
   //
-  // LARGE FIXED CUBE (background, lowest z-index) with scroll effects
+  // LARGE FIXED CUBE (background, lowest z-index)
   //
-let largeCubeSketch = function(p) {
-  let currentBgColor, cubeStrokeColor;
-  const baseBoxSize = 100 * 1.5;
-  let boxSize = baseBoxSize;
+  let largeCubeSketch = function(p) {
+    let currentBgColor, cubeStrokeColor;
+    // 1.5× larger
+    const boxSize = 100 * 1.5, half = boxSize / 2;
 
-  // scroll smoothing variables
-  let scrollRotTarget = 0;
-  let extraRotY = 0;
-  let lastScrollY = window.scrollY;
+    function updateColors() {
+      const dark = document.documentElement.classList.contains('dark');
+      const bg = window.getComputedStyle(document.body).backgroundColor;
+      currentBgColor = parseRgbString(bg);
+      cubeStrokeColor = dark
+        ? { r: 255, g: 255, b: 255 }
+        : { r:   0, g:   0, b:   0 };
+    }
 
-  function updateColors() {
-    const dark = document.documentElement.classList.contains('dark');
-    const bg = window.getComputedStyle(document.body).backgroundColor;
-    currentBgColor = parseRgbString(bg);
-    cubeStrokeColor = dark
-      ? { r: 255, g: 255, b: 255 }
-      : { r:   0, g:   0, b:   0 };
-  }
+    p.setup = function() {
+      const container = document.getElementById('large-cube-container');
+      let canvas = p.createCanvas(container.clientWidth, container.clientHeight, p.WEBGL);
+      // reduce perspective distortion
+      p.perspective(p.PI/6, p.width / p.height, 0.1, 1000);
 
-  function handleScroll() {
-    const scrollPos = window.scrollY;
-    const delta = scrollPos - lastScrollY;
-    lastScrollY = scrollPos;
-    // scroll‐driven rotation
-    scrollRotTarget += delta * 0.2;
-    // zoom out/fade: scale down over one viewport height
-    const maxScroll = window.innerHeight;
-    const scale = Math.max(0, 1 - scrollPos / maxScroll);
-    boxSize = baseBoxSize * scale;
-  }
+      canvas.parent('large-cube-container');
+      canvas.elt.style.position = 'absolute';
+      canvas.elt.style.top = '0';
+      canvas.elt.style.left = '0';
 
-  p.setup = function() {
-    const container = document.getElementById('large-cube-container');
-    let canvas = p.createCanvas(container.clientWidth, container.clientHeight, p.WEBGL);
-    p.perspective(p.PI/6, p.width / p.height, 0.1, 1000);
+      p.angleMode(p.DEGREES);
+      p.strokeWeight(0.9);
+      p.noFill();
+      updateColors();
 
-    canvas.parent('large-cube-container');
-    canvas.elt.style.position = 'absolute';
-    canvas.elt.style.top = '0';
-    canvas.elt.style.left = '0';
+      new MutationObserver((ms) => {
+        ms.forEach((m) => {
+          if (m.type === 'attributes' && m.attributeName === 'class') {
+            updateColors();
+            p.redraw();
+          }
+        });
+      }).observe(document.documentElement, { attributes: true });
+    };
 
-    p.angleMode(p.DEGREES);
-    p.strokeWeight(0.5);
-    p.noFill();
-    updateColors();
+    p.draw = function() {
+      p.background(currentBgColor.r, currentBgColor.g, currentBgColor.b);
+      p.push();
+      p.rotateX(p.frameCount * 0.05);
+      p.rotateY(p.frameCount * 0.1);
+      // 30% opacity (~76/255)
+      p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 16);
+      p.box(boxSize);
+      p.pop();
+    };
 
-    window.addEventListener('scroll', handleScroll);
-
-    new MutationObserver((ms) => {
-      ms.forEach((m) => {
-        if (m.type === 'attributes' && m.attributeName === 'class') {
-          updateColors();
-          p.redraw();
-        }
-      });
-    }).observe(document.documentElement, { attributes: true });
+    p.windowResized = function() {
+      const container = document.getElementById('large-cube-container');
+      p.resizeCanvas(container.clientWidth, container.clientHeight);
+    };
   };
-
-  p.draw = function() {
-    p.background(currentBgColor.r, currentBgColor.g, currentBgColor.b);
-    p.push();
-
-    // idle spin speeds:
-    const idleXSpeed = 0.02;   // slower idle on X
-    const idleYSpeed = 0.05;    // faster idle on Y
-
-    // smooth scroll‐driven rotation
-    extraRotY = p.lerp(extraRotY, scrollRotTarget, 0.1);
-
-    // X-axis: idle + scroll rotation
-    p.rotateX(p.frameCount * idleXSpeed + extraRotY);
-    // Y-axis: idle only
-    p.rotateY(p.frameCount * idleYSpeed);
-
-    // fade based on scale
-    const fadeAlpha = boxSize / baseBoxSize;
-    p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, fadeAlpha * 30);
-
-    // draw cube at current size
-    p.box(boxSize);
-
-    p.pop();
-  };
-
-  p.windowResized = function() {
-    const container = document.getElementById('large-cube-container');
-    p.resizeCanvas(container.clientWidth, container.clientHeight);
-  };
-};
-
-
-
 
   //
   // HERO CUBE (still absolute + z-index low)
@@ -189,7 +159,7 @@ let largeCubeSketch = function(p) {
       currentBgColor = parseRgbString(bg);
       cubeStrokeColor = dark
         ? { r: 255, g: 255, b: 255 }
-        : { r:   0, g:   0, b:   0 };
+        : { r:   0, g:   0, b:   0   };
       if (titleElement) {
         const strokeHex = dark ? "#DCDCDC" : "#1f2937";
         titleElement.style.setProperty('--title-stroke-color', strokeHex);
@@ -203,6 +173,7 @@ let largeCubeSketch = function(p) {
       let canvas = p.createCanvas(72, 72, p.WEBGL);
       canvas.parent('mini-cube-container');
 
+      // only for hero
       if (canvas.elt.parentElement?.id === 'mini-cube-container') {
         canvas.elt.style.position = 'absolute';
         canvas.elt.style.zIndex   = '5';
@@ -228,8 +199,8 @@ let largeCubeSketch = function(p) {
     p.draw = function() {
       p.background(currentBgColor.r, currentBgColor.g, currentBgColor.b);
       p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
-      p.rotateX(p.frameCount * 0.09);
-      p.rotateY(p.frameCount * 0.05);
+      p.rotateX(p.frameCount * 0.5);
+      p.rotateY(p.frameCount * 0.3);
       p.box(36);
     };
 
@@ -245,6 +216,7 @@ let largeCubeSketch = function(p) {
     };
   };
 
+
   //
   // FEATURE CUBE – single side
   //
@@ -258,7 +230,7 @@ let largeCubeSketch = function(p) {
       currentBgColor = parseRgbString(bg);
       cubeStrokeColor = dark
         ? { r: 255, g: 255, b: 255 }
-        : { r:   0, g:   0, b:   0 };
+        : { r:   0, g:   0, b:   0   };
     }
 
     p.setup = function() {
@@ -287,6 +259,7 @@ let largeCubeSketch = function(p) {
       p.rotateX(p.frameCount * 0.5);
       p.rotateY(p.frameCount * 0.3);
       p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
+      // front face only
       p.line(-half, -half,  half,  half, -half,  half);
       p.line( half, -half,  half,  half,  half,  half);
       p.line( half,  half,  half, -half,  half,  half);
@@ -294,6 +267,7 @@ let largeCubeSketch = function(p) {
       p.pop();
     };
   };
+
 
   //
   // FEATURE CUBE – two sides
@@ -308,7 +282,7 @@ let largeCubeSketch = function(p) {
       currentBgColor = parseRgbString(bg);
       cubeStrokeColor = dark
         ? { r: 255, g: 255, b: 255 }
-        : { r:   0, g:   0, b:   0 };
+        : { r:   0, g:   0, b:   0   };
     }
 
     p.setup = function() {
@@ -337,16 +311,22 @@ let largeCubeSketch = function(p) {
       p.rotateX(p.frameCount * 0.5);
       p.rotateY(p.frameCount * 0.3);
       p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
-      p.line(-half, -half,  half,  half, -half,  half);
-      p.line( half, -half,  half,  half,  half,  half);
-      p.line( half,  half,  half, -half,  half,  half);
-      p.line(-half,  half,  half, -half, -half,  half);
-      p.line( half, -half,  half,  half, -half, -half);
-      p.line( half,  half,  half,  half,  half, -half);
-      p.line( half, -half, -half,  half,  half, -half);
+
+      // front face
+      p.line(-half,-half, half,  half,-half, half);
+      p.line( half,-half, half,  half, half, half);
+      p.line( half, half, half, -half, half, half);
+      p.line(-half, half, half, -half,-half, half);
+
+      // right face
+      p.line( half,-half, half,  half,-half,-half);
+      p.line( half, half, half,  half, half,-half);
+      p.line( half,-half,-half,  half, half,-half);
+
       p.pop();
     };
   };
+
 
   //
   // FEATURE CUBE – three sides
@@ -361,7 +341,7 @@ let largeCubeSketch = function(p) {
       currentBgColor = parseRgbString(bg);
       cubeStrokeColor = dark
         ? { r: 255, g: 255, b: 255 }
-        : { r:   0, g:   0, b:   0 };
+        : { r:   0, g:   0, b:   0   };
     }
 
     p.setup = function() {
@@ -390,20 +370,27 @@ let largeCubeSketch = function(p) {
       p.rotateX(p.frameCount * 0.5);
       p.rotateY(p.frameCount * 0.3);
       p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
-      p.line(-h, -h,  h,  h, -h,  h);
-      p.line( h, -h,  h,  h,  h,  h);
-      p.line( h,  h,  h, -h,  h,  h);
-      p.line(-h,  h,  h, -h, -h,  h);
-      p.line( h, -h,  h,  h, -h, -h);
-      p.line(-h, -h,  h, -h, -h, -h);
-      p.line(-h, -h, -h,  h, -h, -h);
-      p.line( h, -h, -h,  h,  h, -h);
-      p.line( h,  h,  h,  h,  h, -h);
-      p.line(-h,  h,  h, -h,  h, -h);
-      p.line(-h,  h, -h,  h,  h, -h);
+
+      // front face
+      p.line(-h,-h, h,  h,-h, h);
+      p.line( h,-h, h,  h, h, h);
+      p.line( h, h, h, -h, h, h);
+      p.line(-h, h, h, -h,-h, h);
+
+      // top face
+      p.line( h,-h, h,  h,-h,-h);
+      p.line(-h,-h, h, -h,-h,-h);
+      p.line(-h,-h,-h, h,-h,-h);
+
+      // bottom face
+      p.line( h, h, h,  h, h,-h);
+      p.line(-h, h, h, -h, h,-h);
+      p.line(-h, h,-h, h, h,-h);
+
       p.pop();
     };
   };
+
 
   //
   // CENTERED CUBE (two opposite faces)
@@ -418,7 +405,7 @@ let largeCubeSketch = function(p) {
       currentBgColor = parseRgbString(bg);
       cubeStrokeColor = dark
         ? { r: 255, g: 255, b: 255 }
-        : { r:   0, g:   0, b:   0 };
+        : { r:   0, g:   0, b:   0   };
     }
 
     p.setup = function() {
@@ -447,16 +434,19 @@ let largeCubeSketch = function(p) {
       p.rotateX(p.frameCount * 0.5);
       p.rotateY(p.frameCount * 0.3);
       p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
+
       // front
-      p.line(-h, -h,  h,  h, -h,  h);
-      p.line( h, -h,  h,  h,  h,  h);
-      p.line( h,  h,  h, -h,  h,  h);
-      p.line(-h,  h,  h, -h, -h,  h);
+      p.line(-h,-h, h,  h,-h, h);
+      p.line( h,-h, h,  h, h, h);
+      p.line( h, h, h, -h, h, h);
+      p.line(-h, h, h, -h,-h, h);
+
       // back
-      p.line(-h, -h, -h,  h, -h, -h);
-      p.line( h, -h, -h,  h,  h, -h);
-      p.line( h,  h, -h, -h,  h, -h);
-      p.line(-h,  h, -h, -h, -h, -h);
+      p.line(-h,-h,-h,  h,-h,-h);
+      p.line( h,-h,-h,  h, h,-h);
+      p.line( h, h,-h, -h, h,-h);
+      p.line(-h, h,-h, -h,-h,-h);
+
       p.pop();
     };
   };
@@ -476,6 +466,7 @@ let largeCubeSketch = function(p) {
           new p5(featureCubeSketch, container);
         }
       });
+
     const centered = document.querySelector('.p5-centered-cube-container');
     if (centered) new p5(centeredCubeSketch, centered);
   });

@@ -51,8 +51,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.a635b92ddebf3b235923c0d8650865d93709276dd51a01c020f9d1052b01a4d6336f44027de82143c42492c8f52cfb1d23172265b77199739a271cff3edc5b66.css"
-    integrity="sha512-pjW5Ld6/OyNZI8DYZQhl2TcJJ23VGgHAIPnRBSsBpNYzb0QCfeghQ8Qkksj1LPsdIxciZbdxmXOaJxz/PtxbZg==">
+    href="/css/main.bundle.min.00f13c9e602a1c1a61fbb21c0d573685a321fa0fdecca928260e70bc72715fb7261ec501cecf6c2a78255e9a11378b2a2f943fcdfd83e68cbdcc6748a6f27f18.css"
+    integrity="sha512-APE8nmAqHBph&#43;7IcDVc2haMh&#43;g/ezKkoJg5wvHJxX7cmHsUBzs9sKnglXpoRN4sqL5Q/zf2D5oy9zGdIpvJ/GA==">
 
   
   
@@ -732,22 +732,37 @@
         
   
   
-    <main class="container mx-auto px-4 pb-12 max-w-7xl">
+    <style>
+   
+  .feature-block {
+    background-color: rgba(var(--color-neutral-50), 1) !important;
+    position: relative !important;
+    z-index: 10 !important;
+  }
+  html.dark .feature-block {
+    background-color: rgba(var(--color-neutral-800), 1) !important;
+  }
+</style>
 
-  <section class="relative flex flex-col items-start justify-center min-h-[200px] md:min-h-[250px] lg:min-h-[300px]">
-    <div id="text-container" class="max-w-3xl mx-auto w-full relative z-50"
-         style="padding-top: 18vh; padding-bottom: 10vh;">
-      <div id="title-hook"
-           class="tourney-light leading-[0.7] text-5xl sm:text-6xl md:text-7xl leading-tight relative z-20 inline-block"
-           style="font-size: 4rem;">
-        Rewire Yourself
-      </div>
-      <p class="quicksand-medium text-2xl md::text-3xl text-gray-400 mt-4 relative z-20 pl-[2px]">
-        beyond old limitations_
-      </p>
+<main class="container mx-auto px-4 pb-12 max-w-7xl">
+  <div id="text-container" class="max-w-3xl mx-auto w-full relative z-50"
+       style="padding-top: 18vh; padding-bottom: 10vh;">
+    <div id="title-hook"
+         class="tourney-light leading-[0.7] text-5xl sm:text-6xl md:text-7xl leading-tight relative z-20 inline-block"
+         style="font-size: 4rem;">
+      Rewire Yourself
     </div>
-    <div id="mini-cube-container" class="absolute z-10"></div>
-  </section>
+    <p class="quicksand-medium text-2xl md::text-3xl text-gray-400 mt-4 relative z-20 pl-[2px]">
+      beyond old limitations_
+    </p>
+  </div>
+  <div id="mini-cube-container" class="absolute z-10"></div>
+
+  
+  <div id="large-cube-container"
+     class="fixed w-[130vw] aspect-square left-[15%] top-1/2 transform -translate-y-1/2 md:w-[95vw] md:h-[95vw] md:left-[15%] md:top-1/2 z-[-10]"
+     style="z-index:-10;">
+  </div>
 
   <section class="mt-12 py-8">
     <div class="max-w-3xl mx-auto text-left">
@@ -760,19 +775,19 @@
   <section class="mt-12 py-8">
     <div class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
       
-      <div class="feature-block p-6 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white bg-white text-gray-800 flex flex-col items-center text-center">
+      <div class="feature-block p-6 rounded-lg shadow-[0_25px_50px_rgba(0,0,0,0.2)] dark:bg-gray-800 dark:text-white bg-white text-gray-800 flex flex-col items-center text-center">
         <div class="p5-feature-cube-container" style="width: 72px; height: 72px;"></div>
         <h3 class="feature-headline text-xl md:text-2xl font-bold mt-4 mb-2">Outcome oriented</h3>
         <p class="feature-copy text-base text-gray-600 dark:text-gray-300">—lock in your goals and break through stasis.</p>
       </div>
       
-      <div class="feature-block p-6 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white bg-white text-gray-800 flex flex-col items-center text-center">
+      <div class="feature-block p-6 rounded-lg shadow-[0_25px_50px_rgba(0,0,0,0.2)] dark:bg-gray-800 dark:text-white bg-white text-gray-800 flex flex-col items-center text-center">
         <div class="p5-feature-cube-container" style="width: 72px; height: 72px;"></div>
         <h3 class="feature-headline text-xl md:text-2xl font-bold mt-4 mb-2">Neural entrainment</h3>
         <p class="feature-copy text-base text-gray-600 dark:text-gray-300">—relax old habits and realign into action.</p>
       </div>
       
-      <div class="feature-block p-6 rounded-lg shadow-lg dark:bg-gray-800 dark:text-white bg-white text-gray-800 flex flex-col items-center text-center">
+      <div class="feature-block p-6 rounded-lg shadow-[0_25px_50px_rgba(0,0,0,0.2)] dark:bg-gray-800 dark:text-white bg-white text-gray-800 flex flex-col items-center text-center">
         <div class="p5-feature-cube-container" style="width: 72px; height: 72px;"></div>
         <h3 class="feature-headline text-xl md:text-2xl font-bold mt-4 mb-2">Clarity and purpose</h3>
         <p class="feature-copy text-base text-gray-600 dark:text-gray-300">—sharpen your inner compass to thrive.</p>
@@ -1237,7 +1252,6 @@
 
 
   </section>
-
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
@@ -1253,6 +1267,102 @@
   
   
   
+let largeCubeSketch = function(p) {
+  let currentBgColor, cubeStrokeColor;
+  const baseBoxSize = 100 * 1.5;
+  let boxSize = baseBoxSize;
+
+  
+  let scrollRotTarget = 0;
+  let extraRotY = 0;
+  let lastScrollY = window.scrollY;
+
+  function updateColors() {
+    const dark = document.documentElement.classList.contains('dark');
+    const bg = window.getComputedStyle(document.body).backgroundColor;
+    currentBgColor = parseRgbString(bg);
+    cubeStrokeColor = dark
+      ? { r: 255, g: 255, b: 255 }
+      : { r:   0, g:   0, b:   0 };
+  }
+
+  function handleScroll() {
+    const scrollPos = window.scrollY;
+    const delta = scrollPos - lastScrollY;
+    lastScrollY = scrollPos;
+    
+    scrollRotTarget += delta * 0.2;
+    
+    const maxScroll = window.innerHeight;
+    const scale = Math.max(0, 1 - scrollPos / maxScroll);
+    boxSize = baseBoxSize * scale;
+  }
+
+  p.setup = function() {
+    const container = document.getElementById('large-cube-container');
+    let canvas = p.createCanvas(container.clientWidth, container.clientHeight, p.WEBGL);
+    p.perspective(p.PI/6, p.width / p.height, 0.1, 1000);
+
+    canvas.parent('large-cube-container');
+    canvas.elt.style.position = 'absolute';
+    canvas.elt.style.top = '0';
+    canvas.elt.style.left = '0';
+
+    p.angleMode(p.DEGREES);
+    p.strokeWeight(0.5);
+    p.noFill();
+    updateColors();
+
+    window.addEventListener('scroll', handleScroll);
+
+    new MutationObserver((ms) => {
+      ms.forEach((m) => {
+        if (m.type === 'attributes' && m.attributeName === 'class') {
+          updateColors();
+          p.redraw();
+        }
+      });
+    }).observe(document.documentElement, { attributes: true });
+  };
+
+  p.draw = function() {
+    p.background(currentBgColor.r, currentBgColor.g, currentBgColor.b);
+    p.push();
+
+    
+    const idleXSpeed = 0.02;   
+    const idleYSpeed = 0.05;    
+
+    
+    extraRotY = p.lerp(extraRotY, scrollRotTarget, 0.1);
+
+    
+    p.rotateX(p.frameCount * idleXSpeed + extraRotY);
+    
+    p.rotateY(p.frameCount * idleYSpeed);
+
+    
+    const fadeAlpha = boxSize / baseBoxSize;
+    p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, fadeAlpha * 30);
+
+    
+    p.box(boxSize);
+
+    p.pop();
+  };
+
+  p.windowResized = function() {
+    const container = document.getElementById('large-cube-container');
+    p.resizeCanvas(container.clientWidth, container.clientHeight);
+  };
+};
+
+
+
+
+  
+  
+  
   let heroCubeSketch = function(p) {
     let cubeContainer, titleElement, currentBgColor, cubeStrokeColor;
 
@@ -1262,7 +1372,7 @@
       currentBgColor = parseRgbString(bg);
       cubeStrokeColor = dark
         ? { r: 255, g: 255, b: 255 }
-        : { r: 0,   g: 0,   b: 0   };
+        : { r:   0, g:   0, b:   0 };
       if (titleElement) {
         const strokeHex = dark ? "#DCDCDC" : "#1f2937";
         titleElement.style.setProperty('--title-stroke-color', strokeHex);
@@ -1276,7 +1386,6 @@
       let canvas = p.createCanvas(72, 72, p.WEBGL);
       canvas.parent('mini-cube-container');
 
-      
       if (canvas.elt.parentElement?.id === 'mini-cube-container') {
         canvas.elt.style.position = 'absolute';
         canvas.elt.style.zIndex   = '5';
@@ -1302,8 +1411,8 @@
     p.draw = function() {
       p.background(currentBgColor.r, currentBgColor.g, currentBgColor.b);
       p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
-      p.rotateX(p.frameCount * 0.5);
-      p.rotateY(p.frameCount * 0.3);
+      p.rotateX(p.frameCount * 0.09);
+      p.rotateY(p.frameCount * 0.05);
       p.box(36);
     };
 
@@ -1312,13 +1421,12 @@
       const t = titleElement.getBoundingClientRect();
       const pRect = titleElement.parentElement.parentElement.getBoundingClientRect();
 
-      const left = (t.left - pRect.left + t.width*0.05) - 75;
-      const top  = (t.top - pRect.top - (cubeContainer.offsetHeight/2) + t.height*0.1) -55;
+      const left = (t.left - pRect.left + t.width * 0.05) - 75;
+      const top  = (t.top  - pRect.top  - (cubeContainer.offsetHeight/2) + t.height * 0.1) - 55;
       cubeContainer.style.left = `${left}px`;
       cubeContainer.style.top  = `${top}px`;
     };
   };
-
 
   
   
@@ -1333,11 +1441,10 @@
       currentBgColor = parseRgbString(bg);
       cubeStrokeColor = dark
         ? { r: 255, g: 255, b: 255 }
-        : { r: 0,   g: 0,   b: 0   };
+        : { r:   0, g:   0, b:   0 };
     }
 
     p.setup = function() {
-      
       const container = p._userNode;
       let canvas = p.createCanvas(72, 72, p.WEBGL);
       canvas.parent(container);
@@ -1363,15 +1470,13 @@
       p.rotateX(p.frameCount * 0.5);
       p.rotateY(p.frameCount * 0.3);
       p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
-      
-      p.line(-half, -half, half,  half, -half, half);
-      p.line( half, -half, half,  half,  half, half);
-      p.line( half,  half, half, -half,  half, half);
-      p.line(-half,  half, half, -half, -half, half);
+      p.line(-half, -half,  half,  half, -half,  half);
+      p.line( half, -half,  half,  half,  half,  half);
+      p.line( half,  half,  half, -half,  half,  half);
+      p.line(-half,  half,  half, -half, -half,  half);
       p.pop();
     };
   };
-
 
   
   
@@ -1386,7 +1491,7 @@
       currentBgColor = parseRgbString(bg);
       cubeStrokeColor = dark
         ? { r: 255, g: 255, b: 255 }
-        : { r: 0,   g: 0,   b: 0   };
+        : { r:   0, g:   0, b:   0 };
     }
 
     p.setup = function() {
@@ -1415,22 +1520,16 @@
       p.rotateX(p.frameCount * 0.5);
       p.rotateY(p.frameCount * 0.3);
       p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
-
-      
-      p.line(-half,-half, half,  half,-half, half);
-      p.line( half,-half, half,  half, half, half);
-      p.line( half, half, half, -half, half, half);
-      p.line(-half, half, half, -half,-half, half);
-
-      
-      p.line( half,-half, half,  half,-half,-half);
-      p.line( half, half, half,  half, half,-half);
-      p.line( half,-half,-half,  half, half,-half);
-
+      p.line(-half, -half,  half,  half, -half,  half);
+      p.line( half, -half,  half,  half,  half,  half);
+      p.line( half,  half,  half, -half,  half,  half);
+      p.line(-half,  half,  half, -half, -half,  half);
+      p.line( half, -half,  half,  half, -half, -half);
+      p.line( half,  half,  half,  half,  half, -half);
+      p.line( half, -half, -half,  half,  half, -half);
       p.pop();
     };
   };
-
 
   
   
@@ -1445,7 +1544,7 @@
       currentBgColor = parseRgbString(bg);
       cubeStrokeColor = dark
         ? { r: 255, g: 255, b: 255 }
-        : { r: 0,   g: 0,   b: 0   };
+        : { r:   0, g:   0, b:   0 };
     }
 
     p.setup = function() {
@@ -1474,27 +1573,20 @@
       p.rotateX(p.frameCount * 0.5);
       p.rotateY(p.frameCount * 0.3);
       p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
-
-      
-      p.line(-h,-h, h,  h,-h, h);
-      p.line( h,-h, h,  h, h, h);
-      p.line( h, h, h, -h, h, h);
-      p.line(-h, h, h, -h,-h, h);
-
-      
-      p.line( h,-h, h,  h,-h,-h);
-      p.line(-h,-h, h, -h,-h,-h);
-      p.line(-h,-h,-h, h,-h,-h);
-
-      
-      p.line( h, h, h,  h, h,-h);
-      p.line(-h, h, h, -h, h,-h);
-      p.line(-h, h,-h, h, h,-h);
-
+      p.line(-h, -h,  h,  h, -h,  h);
+      p.line( h, -h,  h,  h,  h,  h);
+      p.line( h,  h,  h, -h,  h,  h);
+      p.line(-h,  h,  h, -h, -h,  h);
+      p.line( h, -h,  h,  h, -h, -h);
+      p.line(-h, -h,  h, -h, -h, -h);
+      p.line(-h, -h, -h,  h, -h, -h);
+      p.line( h, -h, -h,  h,  h, -h);
+      p.line( h,  h,  h,  h,  h, -h);
+      p.line(-h,  h,  h, -h,  h, -h);
+      p.line(-h,  h, -h,  h,  h, -h);
       p.pop();
     };
   };
-
 
   
   
@@ -1509,7 +1601,7 @@
       currentBgColor = parseRgbString(bg);
       cubeStrokeColor = dark
         ? { r: 255, g: 255, b: 255 }
-        : { r: 0,   g: 0,   b: 0   };
+        : { r:   0, g:   0, b:   0 };
     }
 
     p.setup = function() {
@@ -1538,27 +1630,24 @@
       p.rotateX(p.frameCount * 0.5);
       p.rotateY(p.frameCount * 0.3);
       p.stroke(cubeStrokeColor.r, cubeStrokeColor.g, cubeStrokeColor.b, 230);
-
       
-      p.line(-h,-h, h,  h,-h, h);
-      p.line( h,-h, h,  h, h, h);
-      p.line( h, h, h, -h, h, h);
-      p.line(-h, h, h, -h,-h, h);
-
+      p.line(-h, -h,  h,  h, -h,  h);
+      p.line( h, -h,  h,  h,  h,  h);
+      p.line( h,  h,  h, -h,  h,  h);
+      p.line(-h,  h,  h, -h, -h,  h);
       
-      p.line(-h,-h,-h,  h,-h,-h);
-      p.line( h,-h,-h,  h, h,-h);
-      p.line( h, h,-h, -h, h,-h);
-      p.line(-h, h,-h, -h,-h,-h);
-
+      p.line(-h, -h, -h,  h, -h, -h);
+      p.line( h, -h, -h,  h,  h, -h);
+      p.line( h,  h, -h, -h,  h, -h);
+      p.line(-h,  h, -h, -h, -h, -h);
       p.pop();
     };
   };
 
-
   
   new p5(heroCubeSketch, 'mini-cube-container');
 
+  
   document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.p5-feature-cube-container')
       .forEach((container, i) => {
@@ -1570,10 +1659,12 @@
           new p5(featureCubeSketch, container);
         }
       });
-
     const centered = document.querySelector('.p5-centered-cube-container');
     if (centered) new p5(centeredCubeSketch, centered);
   });
+
+  
+  new p5(largeCubeSketch, 'large-cube-container');
 </script>
 
   
