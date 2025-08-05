@@ -739,6 +739,11 @@
     position: relative !important;
     z-index: 10 !important;
   }
+     
+  .fixed-gpu {
+    will-change: transform;
+    backface-visibility: hidden;
+  }
   html.dark .feature-block {
     background-color: rgba(var(--color-neutral-800), 1) !important;
   }
@@ -761,10 +766,13 @@
   
   <div
     id="large-cube-outer"
-    class="fixed left-[calc(35%-50vw)] top-1/2 z-[-10] md:left-[15%]">
+    class="fixed fixed-gpu left-[calc(35%-50vw)] top-1/2 z-[-10] md:left-[15%]">
     <div
       id="large-cube-container"
-      class="w-[180vw] aspect-square transform -translate-y-1/2 md:w-[95vw] md:h-[95vw]">
+      class="w-[180vw]
+            aspect-square
+            transform -translate-y-1/2
+            md:w-[95vw] md:h-[95vw]">
     </div>
   </div>
 
@@ -1313,7 +1321,7 @@ let largeCubeSketch = function(p) {
     canvas.elt.style.left = '0';
 
     p.angleMode(p.DEGREES);
-    p.strokeWeight(0.5);
+    p.strokeWeight(0.9);
     p.noFill();
     updateColors();
 
