@@ -22,7 +22,7 @@
   weight = 50
 
 [[main]]
-  name = "Articles"
+  name = "Posts"
   pageRef = "posts"
   weight = 50
 
