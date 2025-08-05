@@ -759,9 +759,13 @@
   <div id="mini-cube-container" class="absolute z-10"></div>
 
   
-  <div id="large-cube-container"
-     class="fixed w-[180vw] aspect-square left-[calc(35%-50vw)] top-1/2 transform -translate-y-1/2 md:w-[95vw] md:h-[95vw] md:left-[15%] z-[-10]"
-     style="z-index:-10;">
+  <div
+    id="large-cube-outer"
+    class="fixed left-[calc(35%-50vw)] top-1/2 z-[-10] md:left-[15%]">
+    <div
+      id="large-cube-container"
+      class="w-[180vw] aspect-square transform -translate-y-1/2 md:w-[95vw] md:h-[95vw]">
+    </div>
   </div>
 
   <section class="mt-12 py-8">
