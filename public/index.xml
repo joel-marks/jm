@@ -10,6 +10,16 @@
     <lastBuildDate>Fri, 11 Jul 2025 15:30:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Book review: The Kybalion</title>
+      <link>http://localhost:1313/posts/2025-08-06_review_the-kybalion/</link>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-08-06_review_the-kybalion/</guid>
+      <description>Review of The Kybalion</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-08-06_review_the-kybalion/featured.jpg" />
+    </item>
+    
+    <item>
       <title>Book review: The Mind Is Flat</title>
       <link>http://localhost:1313/posts/2025-02-06_review_the-mind-is-flat/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -17,43 +27,6 @@
       <guid>http://localhost:1313/posts/2025-02-06_review_the-mind-is-flat/</guid>
       <description>Review of The Mind Is Flat, challenging the concept of mental depth</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-02-06_review_the-mind-is-flat/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Downloads</title>
-      <link>http://localhost:1313/downloads/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/downloads/</guid>
-      <description>&lt;p&gt;Right click to download&lt;/p&gt;
-
-&lt;h4 class=&#34;relative group&#34;&gt;Hybrid Stress Reduction Programme 
-    &lt;div id=&#34;hybrid-stress-reduction-programme&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-&lt;/h4&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;a
-  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
-  href=&#34;./Hybrid-SRP-8min-grounding-hypno-meditation.mp3&#34;
-  target=&#34;_self&#34;
-  
-  role=&#34;button&#34;&gt;
-  
-▶ Play
-
-&lt;/a&gt;
-  8 minute Grounding hypno-meditation&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Survival against the odds</title>
-      <link>http://localhost:1313/posts/2025-01-29_survival-against-the-odds/</link>
-      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/2025-01-29_survival-against-the-odds/</guid>
-      <description>A Solution Focused parable to explain how coaching broadens our world-view</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2025-01-29_survival-against-the-odds/featured.jpg" />
     </item>
     
     <item>
@@ -93,32 +66,13 @@
     </item>
     
     <item>
-      <title>Privacy policy</title>
-      <link>http://localhost:1313/privacy-policy/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/privacy-policy/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Summary for webinars and coaching 
-    &lt;div id=&#34;summary-for-webinars-and-coaching&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#summary-for-webinars-and-coaching&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-&lt;p&gt;Nxtwell Ltd. (UK) also trading as Joel Marks (Coaching) is regulated by the ICO.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>Was Alan Watts wrong about the phone?</title>
       <link>http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/</guid>
       <description>How to understand one of Alan Watts most famous quotes.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/2024-10-17_was-alan-watts-wrong-about-the-phone/featured.jpg" />
     </item>
     
     <item>
